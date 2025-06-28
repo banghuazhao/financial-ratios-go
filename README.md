@@ -1,6 +1,6 @@
 # Financial Ratios Go 📊
 
-A comprehensive iOS application for calculating and analyzing financial ratios for companies. This app provides tools for financial analysis, company comparison, and ratio calculations with a modern, user-friendly interface.
+A powerful iOS application for calculating and analyzing financial ratios. This comprehensive tool provides professional-grade financial analysis, company comparison, and ratio calculations with an intuitive, modern interface. Powered by real-time financial data from [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs).
 
 ## 📱 Screenshots
 
