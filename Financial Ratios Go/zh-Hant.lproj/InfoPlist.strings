@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Financial Ratios Go
+
+  Created by Banghua Zhao on 11/3/19.
+  Copyright © 2019 Banghua Zhao. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "財務比率計算";
+"NSUserTrackingUsageDescription" = "該標識符將用於向您投放個性化廣告。";

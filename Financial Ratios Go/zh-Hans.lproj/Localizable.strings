@@ -1,0 +1,455 @@
+/*
+  Localizable.strings
+  Financial Ratios Go
+
+  Created by Banghua Zhao on 10/4/19.
+  Copyright © 2019 Banghua Zhao. All rights reserved.
+*/
+
+/* Ads */
+"The purchase is successful" = "购买成功";
+"The purchase is restored" = "商品已恢复";
+"The purchase is failed" = "购买失败";
+"No product to be restored" = "没有需要恢复购买的商品";
+"Restore purchase" = "恢复购买";
+"Remove Ads forever has been purchased" = "永久去广告已购买";
+"Restoring purchase" = "恢复购买中";
+"Request failed" = "请求失败";
+"Requesting the product" = "请求商品中";
+"Remove Ads" = "去广告";
+"Purchasing" = "购买中";
+"No Data" = "无数据";
+"Purchase Notes" = "购买须知";
+"After purchase, all of the Ads will be removed immediately." = "购买后，所有的广告会立即被去除。";
+"The purchase is valid across different devices (iPhone and iPad) for the same Apple ID." = "该购买对同一 Apple ID 的不同设备 (iPhone 和 iPad) 都有效。";
+"If users change a device or reinstall this App, restore purchase will store your previous purchase." = "如果用户更换了设备或者重新安装了这个应用，恢复购买可以恢复之前的购买记录。";
+
+"We will constantly optimize and maintain our App and make sure users have the best experience" = "我们的团队会持续优化和维护此应用，希望给用户带来最好的体验";
+
+/* More Apps */
+"More Apps" = "更多应用";
+"Check out more Apps made by us" = "发现更多我们的 App";
+
+"All the Apps are available in both Mac and iOS App Store" = "所有应用在 Mac 和 iOS 应用商店均可下载";
+
+"Finance Go" = "美股财报通";
+"Financial Reports & Investing" = "专注财经资讯与价值投资";
+
+"Sudoku Lover" = "数独迷";
+"Math Games" = "九宫格数字逻辑解谜益智游戏";
+
+"Money Tracker" = "极简记账";
+"Budget, Expense & Bill Planner" = "预算管理&存钱计划专家";
+
+"Ratios Go" = "财务比率计算器";
+"Financial Ratios Go" = "财务比率计算器";
+"Finance, Ratios, Investing" = "金融, 比率计算, 投资";
+
+"BMI Diary" = "BMI 日记";
+"Fitness, Weight Loss &Health" = "极简健康减肥健身BMI记录工具";
+
+"Relaxing_Up" = "冥想Up";
+"Meditation&Healing" = "放松减压,深度睡眠专注力训练";
+
+"World Weather Live" = "极简天气";
+"All Cities" = "覆盖全球城市的实时天气预报";
+
+"Water_Tracker" = "喝水吧";
+"Drink Water Log" = "每日喝水提醒小助手";
+
+"Image Guru" = "咕噜滤镜";
+"Photo Editor,Filter" = "多风格修图,调色,相片编辑";
+
+"Instant Face" = "Instant Face";
+"Avatar Maker" = "Avatar Maker";
+
+"We Play Piano" = "弹钢琴";
+"Piano Keyboard" = "钢琴键盘&钢琴练习app";
+
+"Mint Translate" = "薄荷翻译";
+"Text Translator" = "多语言文字文本互译app";
+
+"Yes Habit" = "签签习惯";
+"Habit Tracker" = "习惯追踪养成的自律激励app";
+
+/* Feedback */
+"Feedback" = "反馈";
+
+"WeChat Official Account" = "微信公众号";
+"Send a message to Apps Bay official account" = "在 Apps Bay 的微信公众号里留言";
+"Send a message to WeChat official account" = "微信公众号留言";
+"Please search \"Apps Bay\" in WeChat official account. Then leave a message after following the account. Thanks!" = "请在微信中搜索\"Apps Bay\"公众号，关注后即可留言反馈，谢谢！";
+
+"Facebook Page" = "Facebook Page";
+"Send a message to Apps Bay Facebook page" = "在 Apps Bay 的 Facebook page 留言";
+
+"Email" = "电子邮件";
+"Write an email to appsbay@qq.com" = "给 appsbay@qq.com 发电子邮件";
+"Write an email to appsbayarea@gmail.com" = "给 appsbayarea@gmail.com 发电子邮件";
+"Thanks for Your Feedback" = "谢谢您的反馈";
+
+"Money Tracker" = "极简记账";
+"Budget, Expense & Bill Planner" = "预算管理&存钱计划专家";
+"No Data" = "无数据";
+
+"Financial Ratios Go (iOS App)" = "财务比率计算器 (iOS 应用)";
+"Ratios Go (macOS App)" = "财务比率计算器 (macOS 应用)";
+"Finance, Ratios, Investing" = "金融, 比率计算, 投资";
+"Finance Go" = "美股财报通";
+"Financial Reports & Investing" = "专注财经资讯与价值投资";
+"Countdown Days" = "日期倒计时";
+"Events, Anniversary & Big Days" = "记录纪念日和重要日子的工具";
+"More Apps" = "更多应用";
+
+"Share this App" = "分享这个应用";
+"Support this App" = "支持这个应用";
+"Support This App" = "支持这个应用";
+"Do you want to watch an advertisement to support this App?" = "看一个广告支持一下这个应用？";
+"Advertisement not Ready" = "广告还没有准备就绪";
+"It may take a few seconds. Thanks for your support!" = "这可能需要几秒钟。谢谢您的支持！";
+"It may need a stable internet to load the advertisement. Thanks for your support!" = "载入这个广告可能需要稳定的网络。 谢谢您的支持！";
+"Thanks for Your Support!" = "谢谢您的支持！";
+"We will constantly optimize and maintain our App and make sure users have the best experience." = "我们的团队会持续优化和维护此应用，希望给用户带来最好的体验。";
+"Loading the advertisement" = "广告载入中";
+
+"Statement Compare" = "财报历史对比";
+"Increase or Decrease" = "增长或减少";
+"Amount" = "金额";
+"Percent" = "百分比";
+
+/* misc */
+"Financial Ratios Go" = "财务比率计算器";
+"About"               = "关于";
+"Language"            = "语言";
+"Feedback"            = "反馈";
+"Rate this App"       = "给应用评分";
+"Calculate"           = "计算";
+"Online"              = "网络";
+"Local"               = "本地";
+"Search company names or codes" = "搜索美股公司名称或代码";
+"Annually"            = "年度";
+"Quarterly"           = "季度";
+"Edit"                = "编辑";
+"Delete"              = "删除";
+"Company Name"        = "公司名称";
+"Company Symbol"      = "公司代号";
+"Enter name"          = "输入名称";
+"Enter symbol"        = "输入代号";
+"Save"                = "保存";
+"Cancel"              = "取消";
+"Back"                = "返回";
+"About this App"      = "关于这个应用";
+"Enter Value"         = "输入数据";
+"Version"             = "版本";
+"Developers"          = "开发人员";
+"Lulin Yang"          = "杨璐璘";
+"Product Design"      = "产品设计";
+"Banghua Zhao"        = "赵邦华";
+"Programming"         = "代码";
+"Privacy"             = "隐私协议";
+"Introduction"        = "简介";
+"Ok"                  = "确认";
+"Yes"                 = "是的";
+"Wrong input values"  = "输入的数据有误";
+"Clear Cache"         = "清除缓存";
+"Refresh finished"    = "刷新完毕";
+"Edit Local Company"  = "编辑本地公司";
+"Done"                = "完成";
+"Website"             = "网站";
+"Industry"            = "产业";
+"Exchange"            = "交易所";
+"Company Profile"     = "公司简介";
+"Change language" = "改变语言";
+"Select a language" = "选择一个语言";
+
+"Downloading..."                  = "下载中...";
+"Pull to refresh"                 = "下拉刷新";
+"Redownloading data..."           = "重新下载数据...";
+"Download Successfully!"          = "下载成功! ";
+"Network Error! Pull to reload"   = "网络错误！下拉刷新";
+"Network Timeout! Pull to reload" = "网络超时！下拉刷新";
+"Unknown Error! Pull to reload"   = "未知错误！下拉刷新";
+"Wrong Fiscal Period! Try others" = "财报时间不对！请尝试其实时间";
+
+"No companies available..."               = "暂无公司...";
+"No annually fiscal peroid available..."  = "暂无年度财报...";
+"No quarterly fiscal peroid available..." = "暂无季度财报...";
+
+"Feedback for Financial Ratios Go" = "反馈我们";
+"Dear Financial Ratios Go Team:\n  Your feedbacks..." = "你好 Financial Ratios Go Team:\n  您的反馈。。。";
+
+"Could not send email"      = "无法发送邮件";
+"Error while sending email" = "发送邮件错误";
+"Feedback is sent"          = "反馈已经提交";
+
+"Your device could not send email. Please send an email to iday4633@gmail.com from another device to let us know your feedback. Thanks!"
+=
+"您的设备无法发送邮件。请使用其他设备发送邮件到iday4633@gmail.com。我们的团队非常感谢您的反馈与支持";
+
+"Could not send email due to error. Please send an email to iday4633@gmail.com by another method to let us know your feedback. Thanks!"
+=
+"发送邮件失败。请使用其他应用程序发送邮件到iday4633@gmail.com。我们的团队非常感谢您的反馈与支持！";
+
+"Your feedback is sent to us. We will reply to you as soon as possible. Thanks for your feedback!"
+=
+"反馈已提交。我们会尽快给您回复。常感谢您的反馈与支持！";
+
+"This App is a financial ratio calculator\n\nIt can fetch financial statements of 25000+ major companies from the American stock market by using API from https://financialmodelingprep.com/developer/docs/\n\nIt can also store user-defined financial statements and add fiscal period"
+=
+"本应用程序用于财务比率分析并且可以自动载入25000多个在美国上市公司的财务报表\n\n我们获取财务报表使用的API来源于网站：https://financialmodelingprep.com/developer/docs/\n\n用户还可以在该应用程序上保存和添加不同公司各时期的的财务报表，轻松创建自己的财务报表资料。";
+
+"Do you want to clear cache (statment cache, company logo cache and piscal period cache)"
+=
+"你想清除缓存吗？(财务报表缓存, 公司商标缓存、 财务年度/季度缓存)";
+
+"Create Financial Statement" = "创建财务报表";
+
+"New financial statement or current financial statement?"
+=
+"全新的财务报表或当前的财务报表?";
+
+"New" = "全新的";
+"Current" = "当前的";
+"Financial Statements Compare" = "财务报表对比";
+"Financial Ratios Compare" = "财务比率对比";
+
+/* page title */
+"Financial Statements" = "财务报表";
+"Companies"            = "公司";
+"Create Company"       = "创建公司";
+"Edit Company"         = "编辑公司";
+"Fiscal Period"        = "财务年度/季度";
+"Create Fiscal Period" = "创建财务年度/季度";
+"Edit Fiscal Period"   = "编辑财务年度/季度";
+"Financial Ratios"     = "财务比率";
+
+/* section title */
+"Company"                         = "公司";
+"Company and Fiscal Period"       = "公司和财务年度/季度";
+
+"Income Statement"                = "利润表";
+"Balance Sheet Statement"         = "资产负债表";
+"Cash Flow Statement"             = "现金流量表";
+
+"Liquidity Measurement Ratios"    = "计量流动性比率";
+"Debt Ratios"                     = "负债比率";
+"Profit Ability Indicator Ratios" = "盈利能力指标（比率）";
+"Cash Flow Indicator Ratios"      = "现金流量指标（比率）";
+"Other Ratios"                    = "其他比率";
+
+/* row title */
+"Revenue"                   = "总收入";
+"Net Income"                = "净收入";
+"Operating Income"          = "经营收入";
+"EBIT"                      = "息税前利润";
+"Interest Expense"          = "利息支出";
+"Income Tax Expense"        = "营业税支出";
+"Cash and Cash Equivalents" = "现金及现金等价物";
+"Short-term Debt"           = "短期债务";
+"Long-term Debt"            = "长期债务";
+"Total Assets"              = "总资产";
+"Total Current Assets"      = "总流动资产";
+"Total Current Liabilities" = "总流动负债";
+"Total Shareholders Equity" = "总股东权益";
+"Operating Cash Flow"       = "经营现金流";
+"Dividend Payments"         = "股利支付";
+"Short-term Investments"    = "短期投资";
+"Receivables"               = "应收账款";
+"Free Cash Flow"            = "自由现金流";
+"Total Liabilities"         = "负债总额";
+
+
+"Current Ratio"              = "流动比率";
+"Cash Ratio"                 = "现金比率";
+"Debt Ratio"                 = "负债比率";
+"Interest Coverage"          = "利息支付倍数";
+"Operating Profit Margin"    = "营业利润率";
+"Net Profit Margin"          = "净利润率";
+"Return on Equity"           = "股本回报率";
+"Dividend Payout Ratio"      = "股利支付率";
+"Return on Debt"             = "债务回报率";
+"Cash Flow to Debt Ratio"    = "现金流动与债务比率";
+"CFROI"                      = "现金流投资回报";
+"Return on Invested Capital" = "资本回报率";
+"Acid-Test Ratio"            = "速动比率";
+"Debt to Equity Ratio"       = "负债权益比率";
+"Equity Ratio"               = "产权比率";
+"Return on Capital Employed" = "已动用资本回报率";
+"Free Cash Flow-To-Sales"    = "自由现金流-总收入比率";
+"Retention Ratio"            = "自留额比率";
+
+/* explain */
+
+/* statement */
+
+"In accounting, revenue is the income that a business has from its normal business activities, usually from the sale of goods and services to customers.\n\nReference: https://en.wikipedia.org/wiki/Revenue" =
+"总收入指公司因正常商业活动，所获得之收入，通常是经由提供产品及服务所得。通常营总收入是公司在某段时间内，以货币计价的公司收入。\n\n引用来源: https://en.wikipedia.org/wiki/Revenue";
+
+
+"In business and accounting, net income is a measure of the profitability of a venture. It is an entity's income minus cost of goods sold, expenses (e.g., SG&A), depreciation and amortization, interest, and taxes for an accounting period.\n\nReference: https://en.wikipedia.org/wiki/Net_income"
+=
+"净收入用于衡量公司盈利能力。计算方法是：总收入减去成本，折旧，各项支出，利息和税费。\n\nReference: https://en.wikipedia.org/wiki/Net_income";
+
+
+"Operating income is an accounting figure that measures the amount of profit realized from a business's operations, after deducting operating expenses such as wages, depreciation, and cost of goods sold (COGS).\n\nReference: https://www.investopedia.com/terms/o/operatingincome.asp"
+=
+"经营收入用于衡量公司运营盈利能力。计算方法是：毛利润减去总运营成本（例如工资，销售成本，产品开发成本以及管理成本）\n\nReference: https://www.investopedia.com/terms/o/operatingincome.asp";
+
+
+"In accounting and finance, earnings before interest and taxes (EBIT) is a measure of a firm's profit that includes all incomes and expenses (operating and non-operating) except interest expenses and income tax expenses.\n\nEBIT = Net income + Interest + Taxes\n\nReference: https://en.wikipedia.org/wiki/Earnings_before_interest_and_taxes"
+=
+"息税前利润用于计量公司盈利能力。是指扣除利息支出和所得税支出之前的总利润。计算公式：息税前利润=企业的净利润+企业支付的利息费用+企业支付的所得税\n\n息税前利润 = 净收入 + 利息 + 税费\n\nReference: https://en.wikipedia.org/wiki/Earnings_before_interest_and_taxes";
+
+
+"Interest expense relates to the cost of borrowing money. It is the price that a lender charges a borrower for the use of the lender's money.\n\nReference: https://en.wikipedia.org/wiki/Interest_expense"
+=
+"利息支出是指公司借贷成本。公司的债务对应的应付利息即为利息支出。\n\nReference: https://en.wikipedia.org/wiki/Interest_expense";
+
+
+"Income tax expense is the amount of expense that a business recognizes in an accounting period for the government tax related to its taxable profit.\n\nReference: https://www.accountingtools.com/articles/2017/5/12/income-tax-expense"
+=
+"营业税支出是公司在某段时间内应向政府支付的营业税。\n\nReference: https://www.accountingtools.com/articles/2017/5/12/income-tax-expense";
+
+
+"Cash and cash equivalents refers to the line item on the balance sheet that reports the value of a company's assets that are cash or can be converted into cash immediately.\n\nReference: https://www.investopedia.com/terms/c/cashandcashequivalents.asp"
+=
+"现金及现金等价物位于资产负债表的资产部分。 包括了现金及很快能变现的资产。\n\nReference: https://www.investopedia.com/terms/c/cashandcashequivalents.asp";
+
+
+"Short term debt, also called current liabilities, is a firm's financial obligations that are expected to be paid off within a year.\n\nReference: https://www.investopedia.com/terms/s/shorttermdebt.asp"
+=
+"短期债务通常指偿还期在1年以内的债务。\n\nReference: https://www.investopedia.com/terms/s/shorttermdebt.asp";
+
+
+"Long-term debt is debt that matures in more than one year.\n\nReference: https://www.investopedia.com/terms/l/longtermdebt.asp"
+=
+"长期债务通常指偿还期在1年以上的债务。\n\nReference: https://www.investopedia.com/terms/l/longtermdebt.asp";
+
+
+"Total assets refers to the total amount of assets owned by a person or entity. Assets are items of economic value, which are expended over time to yield a benefit for the owner.\n\nReference: https://www.accountingtools.com/articles/2017/5/15/total-assets"
+=
+"总资产是指在某段时间内公司资产负债表中‘资产总计’的金额。\n\nReference: https://www.accountingtools.com/articles/2017/5/15/total-assets";
+
+
+"Total current assets is the aggregate amount of all cash, receivables, prepaid expenses, and inventory on an organization's balance sheet. These assets are classified as current assets if there is an expectation that they will be converted into cash within one year.\n\nReference: https://www.accountingtools.com/articles/2017/5/15/total-current-assets"
+=
+"总流动资产是指在某段时间内，公司的现金，应收款，预付款和存货的总和。\n\nReference: https://www.accountingtools.com/articles/2017/5/15/total-current-assets";
+
+
+"Also called Current Liabilities and listed on the Balance Sheet, they are a company's short-term financial obligations that are due within one year or within a normal operating cycle.\n\nReference: https://www.investopedia.com/terms/c/currentliabilities.asp"
+=
+"总流动负债通常指企业在1年期以内应偿还的债务。\n\nReference: https://www.investopedia.com/terms/c/currentliabilities.asp";
+
+
+"Total Shareholder equity, also referred to as shareholders' equity and stockholders' equity, is a corporation's owners' residual claim after debts have been paid. Equity is equal to a firm's total assets minus its total liabilities.\n\nReference: https://www.investopedia.com/terms/s/shareholdersequity.asp"
+=
+"总股东权益是指公司总资产扣除总负债的剩余。 计算方法为：总股东权益= 总资产-总负债\n\nReference: https://www.investopedia.com/terms/s/shareholdersequity.asp";
+
+
+"Operating cash flow is a measure of the amount of cash generated by a company's normal business operations.\n\nReference: https://www.investopedia.com/terms/o/operatingcashflow.asp"
+=
+"经营现金流是指公司日常运营活动产生的现金流。\n\nReference: https://www.investopedia.com/terms/o/operatingcashflow.asp";
+
+
+"A dividend is a payment made by a corporation to its shareholders, usually as a distribution of profits. When a corporation earns a profit or surplus, the corporation is able to re-invest the profit in the business (called retained earnings) and pay a proportion of the profit as a dividend to shareholders.\n\nReference: https://en.wikipedia.org/wiki/Dividend"
+=
+"股利支付是指公司向股东分配的公司盈余。公司有盈余（利润）时，通常会将一定比例的利润重新投资到业务中（称为保留收益），并将利润的另一部分作为股利支付给股东，\n\nReference: https://en.wikipedia.org/wiki/Dividend";
+
+"Short Term investments usually include CDs, money market accounts, high-yield savings accounts, government bonds and Treasury bills which can be easily converted into cash in the next three to twelve months.\n\nReference:https://www.investopedia.com/terms/s/shorterminvestments.asp"
+=
+"短期投资通常包括货币市场账户，高收益储蓄账户，政府债券和国库券，它们可以在未来三至十二个月内轻松转换为现金。\n\nReference:https://www.investopedia.com/terms/s/shorterminvestments.asp";
+
+"Receivables are debts owed to a company by its customers for goods or services that have been delivered or used but not yet paid for.\n\nReference:https://www.investopedia.com/terms/r/receivables.asp"
+=
+"应收账款是指商品或服务已交付给客户或使用,但客户尚未付款而欠公司的债务。\n\nReference:https://www.investopedia.com/terms/r/receivables.asp";
+
+"Free cash flow represents the cash a company generates after cash outflows to support operations and maintain its capital assets.\n\nReference:https://www.investopedia.com/terms/f/freecashflow.asp"
+=
+"自由现金流是指扣除所有经营，投资等支出后，公司可以自由支配的现金。\n\nReference:https://www.investopedia.com/terms/f/freecashflow.asp";
+
+"Total liabilities are the combined debts and obligations that a company owes to outside parties.\n\nReference:https://www.investopedia.com/terms/t/total-liabilities.asp"
+=
+"负债总额是指公司有息债务和无息债务（包括应付账款，应付票据等）的总和.\n\nReference:https://www.investopedia.com/terms/t/total-liabilities.asp";
+
+
+/* ratios */
+
+"The current ratio is a liquidity ratio that measures a company's ability to pay short-term obligations or those due within one year.\n\nCurrent Ratio = Total Current assets / Total Current liabilities\n\nReference: https://www.investopedia.com/terms/c/currentratio.asp"
+="流动比率是一种用于衡量公司在未来1年内是否具有足够资源来偿还其债务的财务比率.\n\n流动比率 = 总流动资产 / 总流动负债\n\nReference: https://www.investopedia.com/terms/c/currentratio.asp";
+
+
+"The cash ratio is a measurement of a company's liquidity, specifically the ratio of a company's total cash and cash equivalents to its current liabilities.\n\nCash Ratio = Cash and Cash Equivalents / Total Current liabilities\n\nReference: https://www.investopedia.com/terms/c/cash-ratio.asp"
+=
+"现金比率是一种用于衡量公司流动性的财务比率，特别是公司的现金及现金等价物产与流动负债的比率。\n\n现金比率 = 现金及现金等价物 / 总流动负债\n\nReference: https://www.investopedia.com/terms/c/cash-ratio.asp";
+
+
+"The debt ratio is a financial ratio that measures the extent of a company’s leverage.\n\nDebt ratio = (Short-term Debt + Long-term Debt) / Total assets\n\nReference: https://www.investopedia.com/terms/d/debtratio.asp"
+=
+"负债比率是一种用于衡量公司债务比重的财务比率。\n\n负债比率 = (短期债务 + 长期债务) / 总资产\n\nReference: https://www.investopedia.com/terms/d/debtratio.asp";
+
+
+"The interest coverage ratio is a debt ratio and profitability ratio used to determine how easily a company can pay interest on its outstanding debt.\n\nInterest Coverage Ratio = EBIT / Interest Expense\n\nReference: https://www.investopedia.com/terms/i/interestcoverageratio.asp"
+=
+"利息支付倍数指公司以营业利润支付债息的能力\n\n利息支付倍数 = 息税前利润 / 利息支出\n\nReference: https://www.investopedia.com/terms/i/interestcoverageratio.asp";
+
+
+"The operating margin measures how much profit a company makes on a dollar of sales, after paying for variable costs of production, such as wages and raw materials, but before paying interest or tax.\n\nOperating Profit Margin = Operating Income / Revenue\n\nReference: https://www.investopedia.com/terms/o/operatingmargin.asp"
+=
+"营业利润率用于衡量公司的营利能力，营业利润率衡量的是公司在支付了可变的生产成本（例如工资和原材料）之后（但在支付利息或税款之前），从每一美元的销售额中获利的水平。\n\n营业利润率 = 经营收入 / 总收入\n\nReference: https://www.investopedia.com/terms/o/operatingmargin.asp";
+
+
+"The net profit margin is equal to how much net income or profit is generated as a percentage of revenue.\n\nNet Profit Margin = Net Income / Revenue\n\nReference: https://www.investopedia.com/terms/n/net_margin.asp"
+=
+"净利润率指一定时期内公司产生多少净收入或利润占收入的百分比。\n\n净利润率 = 净收入 / 总收入\n\nReference: https://www.investopedia.com/terms/n/net_margin.asp";
+
+
+"Return on equity (ROE) is a measure of financial performance calculated by dividing net income by shareholders' equity.\n\nReturn on Equity = Net Income / Total Shareholders Equity\n\nReference: https://www.investopedia.com/terms/r/returnonequity.asp"
+=
+"股本回报率是衡量相对于股东权益的投资回报之指标，反映公司利用资产净值产生纯利的能力。\n\n股本回报率 = 净收入 / 总股东权益\n\nReference: https://www.investopedia.com/terms/r/returnonequity.asp";
+
+
+"The dividend payout ratio is the ratio of the total amount of dividends paid out to shareholders relative to the net income of the company.\n\nDividend Payout Ratio = |Dividend Payments / Net Income|\n\nReference: https://www.investopedia.com/terms/d/dividendpayoutratio.asp"
+=
+"股利支付率是指公司向股东分派的股息占公司盈利的百分比\n\n股利支付率 = |股利支付 / 净收入|\n\nReference: https://www.investopedia.com/terms/d/dividendpayoutratio.asp";
+
+
+"Return on debt (ROD) is a measure of profitability with respect to a firm's leverage.\n\nReturn on Debt = Net Income / Long-term Debt\n\nReference: https://www.investopedia.com/terms/r/return-on-debt.asp"
+=
+"债务回报率是用于衡量公司利用债务（杠杆）营利能力的指标\n\n债务回报率 = 净收入 / 长期债务\n\nReference: https://www.investopedia.com/terms/r/return-on-debt.asp";
+
+
+"The cash flow-to-debt ratio is the ratio of a company’s cash flow from operations to its total debt.\n\nCash Flow to Debt Ratio = Operating Cash Flow / (Short-term Debt + Long-term Debt)\n\nReference: https://www.investopedia.com/terms/c/cash-flowtodebt-ratio.asp"
+=
+"现金流动与债务比率是公司运营现金流与债务总额之比。\n\n现金流动与债务比率 = 经营现金流 / (短期债务 + 长期债务)\n\nReference: https://www.investopedia.com/terms/c/cash-flowtodebt-ratio.asp";
+
+"Cash Flow Return on Investment (CFROI) is defined as the average economic return on all of a company's investment projects in a given year\n\nCFROI = Operating Cash Flow / (Total Assets -Total Current Liabilities)\n\nReference: https://www.investopedia.com/terms/c/cfroi.asp"
+=
+"现金流投资回报是用于衡量在一定时期内公司所有投资项目的平均经济收益\n\n现金流投资回报 = 经营收入 /（总资产-短期债务\n\nReference: https://www.investopedia.com/terms/c/cfroi.asp";
+
+"Return on invested capital is a calculation used to assess a company's efficiency at allocating the capital under its control to profitable investments.\n\nReturn on Invested Capital = (Operating Income - Income Tax Expense) / (long-term Debt + Total Shareholders Equity - Cash and Cash Equivalents)\n\nReference: https://www.investopedia.com/terms/r/returnoninvestmentcapital.asp"
+=
+"资本回报率是指公司投入资金与获得相关回报（回报通常表现为获取的利息和/或分得利润）之间比例\n\n资本回报率 = (经营收入 - 营业税支出) / (长期债务 + 总股东权益 - 现金及现金等价物)\n\nReference: https://www.investopedia.com/terms/r/returnoninvestmentcapital.asp";
+
+"The acid-test ratio also measures the liquidity of a company by measuring how well its current assets could cover its current liabilities. However, the Acid-Test Ratio is a more conservative measure of liquidity because it doesn't include all of the items used in the current ratio.\n\nAcid-Test Ratio = (Cash and Cash Equivalents + Short-term Investments + Receivables) / Total Current Liabilities\n\nReference: https://www.investopedia.com/terms/a/acidtest.asp"
+=
+"速动比率也是一种衡量公司偿还流动负债能力的比率。但是，速动比率是一种更为保守的流动性度量，因为它不包括动流动资产中存货、1年内到期的非流动资产及其他流动资产。\n\n速动比率 = (现金及现金等价物 + 短期投资 + 应收账款) / 短期债务\n\nReference: https://www.investopedia.com/terms/a/acidtest.asp";
+
+"It is a measure of the degree to which a company is financing its operations through debt versus wholly-owned funds.\n\nDebt to Equity Ratio = Total Liabilities / Total Shareholders Equity\n\nReference: https://www.investopedia.com/terms/d/debtequityratio.asp"
+=
+"负债权益比率是指企业的负债与总股东权益之间的比值。\n\n负债权益比率 =（短期债务 + 长期债务）/ 总股东权益\n\nReference: https://www.investopedia.com/terms/d/debtequityratio.asp";
+
+"The shareholder equity ratio shows how much of the company's assets are funded by equity shares. The lower the ratio result, the more debt a company has used to pay for its.\n\nShareholder Equity Ratio = Total Shareholder Equity / Total Assets\n\nReference: https://www.investopedia.com/terms/s/shareholderequityratio.asp"
+=
+"产权比率是指股东权益总额与企业资产总额的比率。\n\n产权比率 = 总股东权益 / 总资产\n\nReference: https://www.investopedia.com/terms/s/shareholderequityratio.asp";
+
+"Return on capital employed (ROCE) is a financial ratio that measures a company's profitability and the efficiency with which its capital is used. In other words, the ratio measures how well a company is generating profits from its capital.\n\nReturn on Capital Employed = Operating Income / (Total Assets - Total Current Liabilities)\n\nReference: https://www.investopedia.com/terms/r/roce.asp"
+=
+"已动用资本回报率用于衡量公司资本投资效益及盈利能力的比率。\n\n已动用资本回报率 = 经营收入 /（总资产 - 短期负债）\n\nReference: https://www.investopedia.com/terms/r/roce.asp";
+
+"Free cash flow-to-revenue is a performance ratio that measures operating cash flows after deduction of capital expenditures relative to sales (revenue).\n\nFree Cash Flow-To-Sales = Free Cash Flow / Revenue\n\nReference: https://www.investopedia.com/terms/f/free-cash-flow-to-sales.asp"
+=
+"自由现金流-总收入比率是指公司经营收入减去资本支出后与总收入的比值。\n\n自由现金流-总收入比率 = 自由现金流 / 总收入\n\nReference: https://www.investopedia.com/terms/f/free-cash-flow-to-sales.asp";
+
+"The retention ratio is the proportion of earnings kept back in the business as retained earnings.\n\nRetention Ratio = (Net Income - |Dividend Payments|) / Net Income\n\nReference: https://www.investopedia.com/terms/r/retentionratio.asp"
+=
+"自留额比率是指公司没有以股息形式付给股东而自留的那一部分收益。\n\n自留额比率 =（净收入 - |股利支付|）/ 净收入\n\nReference: https://www.investopedia.com/terms/r/retentionratio.asp";

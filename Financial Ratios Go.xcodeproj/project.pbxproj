@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40B64D0C3808730FACAE2F0D /* Pods_Financial_Ratios_Go.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CA71D0EEC506F6A7D9E335 /* Pods_Financial_Ratios_Go.framework */; };
+		41D1CF6127848400009CABBE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1CF6027848400009CABBE /* String+Extension.swift */; };
+		991A4606233CBAC30018CB9C /* CreateNewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A4605233CBAC30018CB9C /* CreateNewController.swift */; };
+		991A4609233D16E40018CB9C /* CoreDataModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 991A4607233D16E40018CB9C /* CoreDataModels.xcdatamodeld */; };
+		991A460B233D19050018CB9C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A460A233D19050018CB9C /* CoreDataManager.swift */; };
+		991A460D233DAC740018CB9C /* CreateOrEditCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A460C233DAC740018CB9C /* CreateOrEditCompany.swift */; };
+		991A460F233DB7380018CB9C /* CreateOrEditFiscalPeriodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A460E233DB7380018CB9C /* CreateOrEditFiscalPeriodController.swift */; };
+		991A4611233DC2CB0018CB9C /* CreateNewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A4610233DC2CB0018CB9C /* CreateNewCell.swift */; };
+		991A4613233DDE040018CB9C /* CreateOrEditFiscalPeriodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A4612233DDE040018CB9C /* CreateOrEditFiscalPeriodCell.swift */; };
+		991A4615233DFD350018CB9C /* PopupWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A4614233DFD350018CB9C /* PopupWindow.swift */; };
+		991A4617233DFD520018CB9C /* ExplainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A4616233DFD510018CB9C /* ExplainModel.swift */; };
+		993ECA1B23521B04009E1D4C /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993ECA1A23521B04009E1D4C /* Contants.swift */; };
+		993ECA1D23521B75009E1D4C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993ECA1C23521B75009E1D4C /* Extensions.swift */; };
+		993ECA1F23521BCB009E1D4C /* Others.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993ECA1E23521BCB009E1D4C /* Others.swift */; };
+		993ECA21235223FB009E1D4C /* FRGHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993ECA20235223FB009E1D4C /* FRGHeaderView.swift */; };
+		993ECA23235237D0009E1D4C /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993ECA22235237D0009E1D4C /* SectionHeader.swift */; };
+		99402EC12346F04600AB1D3A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99402EC32346F04600AB1D3A /* Localizable.strings */; };
+		994C339A25D57B58007341DD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994C339925D57B58007341DD /* StoreKit.framework */; };
+		994C339C25D57C0F007341DD /* Ads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994C339B25D57C0F007341DD /* Ads.swift */; };
+		994C339E25D57C52007341DD /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994C339725D5580E007341DD /* IAPHelper.swift */; };
+		994C33B225D583B6007341DD /* RemoveAdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994C33B125D583B6007341DD /* RemoveAdsViewController.swift */; };
+		994C33B525D583BE007341DD /* RemoveAdsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994C33B425D583BE007341DD /* RemoveAdsCell.swift */; };
+		994FE0C32348AAE40052641A /* PresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994FE0C22348AAE40052641A /* PresentationAnimator.swift */; };
+		995DB1BD23A4DDBC009F9A30 /* CompanyProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995DB1BC23A4DDBC009F9A30 /* CompanyProfileController.swift */; };
+		9961E82B25BD515100857150 /* MoreAppsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961E82A25BD515100857150 /* MoreAppsHeaderCell.swift */; };
+		9961E82E25BD515600857150 /* FeedbackItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961E82D25BD515600857150 /* FeedbackItemCell.swift */; };
+		9961E83125BD515A00857150 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961E83025BD515900857150 /* FeedbackViewController.swift */; };
+		9961E84425BD8DB500857150 /* FeedbackItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961E84325BD8DB500857150 /* FeedbackItem.swift */; };
+		9961E84725BD8E4200857150 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961E84625BD8E4200857150 /* UIFont+Extension.swift */; };
+		9961E84A25BD959D00857150 /* InterstitialAdsRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961E84925BD959D00857150 /* InterstitialAdsRequestHelper.swift */; };
+		99645E0A236F2A0300C0A6CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99645E0C236F2A0300C0A6CA /* InfoPlist.strings */; };
+		996CC8EE236088A9000F69ED /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996CC8ED236088A9000F69ED /* PresentationController.swift */; };
+		996E584D2364B2FC007D9B2E /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996E584C2364B2FC007D9B2E /* FileManager.swift */; };
+		996E584F236561A0007D9B2E /* companyList.json in Resources */ = {isa = PBXBuildFile; fileRef = 996E584E236561A0007D9B2E /* companyList.json */; };
+		996F0271233A5710003720D4 /* RatioResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996F0270233A5710003720D4 /* RatioResultCell.swift */; };
+		99884E88239530160031D654 /* StoreReviewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99884E87239530160031D654 /* StoreReviewHelper.swift */; };
+		998BD63225D7C9860093451F /* RemoveAdsAboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BD63125D7C9860093451F /* RemoveAdsAboutCell.swift */; };
+		9995125B23376CD600E634E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995125A23376CD600E634E8 /* AppDelegate.swift */; };
+		9995126523376CD800E634E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9995126323376CD800E634E8 /* LaunchScreen.storyboard */; };
+		9995127523376D8200E634E8 /* RatioResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995127023376D8100E634E8 /* RatioResultController.swift */; };
+		9995127723376D8200E634E8 /* SingleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995127223376D8100E634E8 /* SingleController.swift */; };
+		9995127823376D8200E634E8 /* FiscalPeriodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995127323376D8100E634E8 /* FiscalPeriodController.swift */; };
+		9995127923376D8200E634E8 /* CompanyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995127423376D8100E634E8 /* CompanyController.swift */; };
+		9995127D23376D8C00E634E8 /* FinancialStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995127A23376D8C00E634E8 /* FinancialStatement.swift */; };
+		9995127E23376D8C00E634E8 /* FiscalPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995127B23376D8C00E634E8 /* FiscalPeriod.swift */; };
+		9995127F23376D8C00E634E8 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995127C23376D8C00E634E8 /* Company.swift */; };
+		9995128423376D9400E634E8 /* CompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995128023376D9400E634E8 /* CompanyCell.swift */; };
+		9995128523376D9400E634E8 /* CompanySelectedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995128123376D9400E634E8 /* CompanySelectedCell.swift */; };
+		9995128623376D9400E634E8 /* FinancialStatementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995128223376D9400E634E8 /* FinancialStatementCell.swift */; };
+		9995128723376D9400E634E8 /* FiscalPeriodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995128323376D9400E634E8 /* FiscalPeriodCell.swift */; };
+		9995128D23376FB800E634E8 /* FinancialRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995128C23376FB800E634E8 /* FinancialRatio.swift */; };
+		99C6C9D925A0522E003E0858 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994FE0C02348AA460052641A /* MenuController.swift */; };
+		99C6C9DD25A0609B003E0858 /* AppItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6C9DC25A0609B003E0858 /* AppItem.swift */; };
+		99C6C9E025A060A5003E0858 /* AppItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6C9DF25A060A5003E0858 /* AppItemCell.swift */; };
+		99C6C9EF25A06620003E0858 /* MoreAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6C9E225A060B1003E0858 /* MoreAppsViewController.swift */; };
+		99CE43B7235B4C3D007C3D4E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE43B6235B4C3D007C3D4E /* NetworkManager.swift */; };
+		99F53D0F2349DF4E00C33DDE /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F53D0E2349DF4E00C33DDE /* MenuModel.swift */; };
+		99F53D122349E06A00C33DDE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F53D112349E06A00C33DDE /* UIColor+Extension.swift */; };
+		99F53D142349E17A00C33DDE /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F53D132349E17A00C33DDE /* MenuCell.swift */; };
+		99F53D18234A477900C33DDE /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F53D17234A477900C33DDE /* AboutController.swift */; };
+		99F975F92337BF29006404E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F975F82337BF29006404E5 /* Assets.xcassets */; };
+		99FCB424237F9DC30051F628 /* FRGNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCB423237F9DC30051F628 /* FRGNavigationController.swift */; };
+		99FCB427237FA3A30051F628 /* FRGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCB426237FA3A30051F628 /* FRGViewController.swift */; };
+		99FCB429237FA7340051F628 /* FRGCalculationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCB428237FA7340051F628 /* FRGCalculationButton.swift */; };
+		99FDC31423C8B82100B28480 /* FRGTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDC31323C8B82100B28480 /* FRGTabBarController.swift */; };
+		99FDC31623C8BF2500B28480 /* CompareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDC31523C8BF2500B28480 /* CompareController.swift */; };
+		99FDC31C23C9538600B28480 /* FinancialStatementCompareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDC31B23C9538600B28480 /* FinancialStatementCompareCell.swift */; };
+		99FDC31E23C9623D00B28480 /* CompanySelectedCompareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDC31D23C9623D00B28480 /* CompanySelectedCompareCell.swift */; };
+		99FDC32023C9650D00B28480 /* FinancialStatementTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDC31F23C9650D00B28480 /* FinancialStatementTitleCell.swift */; };
+		99FDC32223C9AC8A00B28480 /* ResultCompareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDC32123C9AC8A00B28480 /* ResultCompareController.swift */; };
+		99FDC32423C9ACB100B28480 /* ResultCompareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDC32323C9ACB100B28480 /* ResultCompareCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01CF5B27B4220A76AF621117 /* Pods-Financial Ratios Go.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Financial Ratios Go.release.xcconfig"; path = "Pods/Target Support Files/Pods-Financial Ratios Go/Pods-Financial Ratios Go.release.xcconfig"; sourceTree = "<group>"; };
+		41D1CF6027848400009CABBE /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		991A4605233CBAC30018CB9C /* CreateNewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewController.swift; sourceTree = "<group>"; };
+		991A4608233D16E40018CB9C /* CoreDataModels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModels.xcdatamodel; sourceTree = "<group>"; };
+		991A460A233D19050018CB9C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		991A460C233DAC740018CB9C /* CreateOrEditCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrEditCompany.swift; sourceTree = "<group>"; };
+		991A460E233DB7380018CB9C /* CreateOrEditFiscalPeriodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrEditFiscalPeriodController.swift; sourceTree = "<group>"; };
+		991A4610233DC2CB0018CB9C /* CreateNewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCell.swift; sourceTree = "<group>"; };
+		991A4612233DDE040018CB9C /* CreateOrEditFiscalPeriodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrEditFiscalPeriodCell.swift; sourceTree = "<group>"; };
+		991A4614233DFD350018CB9C /* PopupWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupWindow.swift; sourceTree = "<group>"; };
+		991A4616233DFD510018CB9C /* ExplainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplainModel.swift; sourceTree = "<group>"; };
+		993ECA182352155A009E1D4C /* Financial Ratios Go.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Financial Ratios Go.entitlements"; path = "Financial Ratios Go/Financial Ratios Go.entitlements"; sourceTree = "<group>"; };
+		993ECA1A23521B04009E1D4C /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		993ECA1C23521B75009E1D4C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		993ECA1E23521BCB009E1D4C /* Others.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Others.swift; sourceTree = "<group>"; };
+		993ECA20235223FB009E1D4C /* FRGHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRGHeaderView.swift; sourceTree = "<group>"; };
+		993ECA22235237D0009E1D4C /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		99402EC22346F04600AB1D3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		99402EC42346F04900AB1D3A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		994C339725D5580E007341DD /* IAPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		994C339925D57B58007341DD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		994C339B25D57C0F007341DD /* Ads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ads.swift; sourceTree = "<group>"; };
+		994C33B125D583B6007341DD /* RemoveAdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveAdsViewController.swift; sourceTree = "<group>"; };
+		994C33B425D583BE007341DD /* RemoveAdsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveAdsCell.swift; sourceTree = "<group>"; };
+		994FE0C02348AA460052641A /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		994FE0C22348AAE40052641A /* PresentationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAnimator.swift; sourceTree = "<group>"; };
+		995DB1BC23A4DDBC009F9A30 /* CompanyProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyProfileController.swift; sourceTree = "<group>"; };
+		995E806823BF999B00C55E8C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		995E806923BF999B00C55E8C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9961E82A25BD515100857150 /* MoreAppsHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreAppsHeaderCell.swift; sourceTree = "<group>"; };
+		9961E82D25BD515600857150 /* FeedbackItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackItemCell.swift; sourceTree = "<group>"; };
+		9961E83025BD515900857150 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		9961E84325BD8DB500857150 /* FeedbackItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackItem.swift; sourceTree = "<group>"; };
+		9961E84625BD8E4200857150 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		9961E84925BD959D00857150 /* InterstitialAdsRequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAdsRequestHelper.swift; sourceTree = "<group>"; };
+		99645E06236F295200C0A6CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99645E0B236F2A0300C0A6CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99645E0D236F2A0400C0A6CA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		996CC8ED236088A9000F69ED /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		996E584C2364B2FC007D9B2E /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		996E584E236561A0007D9B2E /* companyList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = companyList.json; sourceTree = "<group>"; };
+		996F0270233A5710003720D4 /* RatioResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioResultCell.swift; sourceTree = "<group>"; };
+		99841E2723DC97730037DD92 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		99884E87239530160031D654 /* StoreReviewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreReviewHelper.swift; sourceTree = "<group>"; };
+		998BD63125D7C9860093451F /* RemoveAdsAboutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveAdsAboutCell.swift; sourceTree = "<group>"; };
+		9995125723376CD600E634E8 /* Ratios Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ratios Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9995125A23376CD600E634E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9995126423376CD800E634E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9995127023376D8100E634E8 /* RatioResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatioResultController.swift; sourceTree = "<group>"; };
+		9995127223376D8100E634E8 /* SingleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleController.swift; sourceTree = "<group>"; };
+		9995127323376D8100E634E8 /* FiscalPeriodController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiscalPeriodController.swift; sourceTree = "<group>"; };
+		9995127423376D8100E634E8 /* CompanyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyController.swift; sourceTree = "<group>"; };
+		9995127A23376D8C00E634E8 /* FinancialStatement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialStatement.swift; sourceTree = "<group>"; };
+		9995127B23376D8C00E634E8 /* FiscalPeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiscalPeriod.swift; sourceTree = "<group>"; };
+		9995127C23376D8C00E634E8 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		9995128023376D9400E634E8 /* CompanyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyCell.swift; sourceTree = "<group>"; };
+		9995128123376D9400E634E8 /* CompanySelectedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanySelectedCell.swift; sourceTree = "<group>"; };
+		9995128223376D9400E634E8 /* FinancialStatementCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialStatementCell.swift; sourceTree = "<group>"; };
+		9995128323376D9400E634E8 /* FiscalPeriodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiscalPeriodCell.swift; sourceTree = "<group>"; };
+		9995128C23376FB800E634E8 /* FinancialRatio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialRatio.swift; sourceTree = "<group>"; };
+		99C6C9DC25A0609B003E0858 /* AppItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppItem.swift; sourceTree = "<group>"; };
+		99C6C9DF25A060A5003E0858 /* AppItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppItemCell.swift; sourceTree = "<group>"; };
+		99C6C9E225A060B1003E0858 /* MoreAppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreAppsViewController.swift; sourceTree = "<group>"; };
+		99C6C9F125A06893003E0858 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		99CE43B6235B4C3D007C3D4E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		99F53D0E2349DF4E00C33DDE /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		99F53D112349E06A00C33DDE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		99F53D132349E17A00C33DDE /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		99F53D17234A477900C33DDE /* AboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		99F975F82337BF29006404E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99FCB423237F9DC30051F628 /* FRGNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRGNavigationController.swift; sourceTree = "<group>"; };
+		99FCB426237FA3A30051F628 /* FRGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRGViewController.swift; sourceTree = "<group>"; };
+		99FCB428237FA7340051F628 /* FRGCalculationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRGCalculationButton.swift; sourceTree = "<group>"; };
+		99FDC31323C8B82100B28480 /* FRGTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRGTabBarController.swift; sourceTree = "<group>"; };
+		99FDC31523C8BF2500B28480 /* CompareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareController.swift; sourceTree = "<group>"; };
+		99FDC31B23C9538600B28480 /* FinancialStatementCompareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialStatementCompareCell.swift; sourceTree = "<group>"; };
+		99FDC31D23C9623D00B28480 /* CompanySelectedCompareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySelectedCompareCell.swift; sourceTree = "<group>"; };
+		99FDC31F23C9650D00B28480 /* FinancialStatementTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialStatementTitleCell.swift; sourceTree = "<group>"; };
+		99FDC32123C9AC8A00B28480 /* ResultCompareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCompareController.swift; sourceTree = "<group>"; };
+		99FDC32323C9ACB100B28480 /* ResultCompareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCompareCell.swift; sourceTree = "<group>"; };
+		AFB1ACEDD6F4419F89C52762 /* Pods-Financial Ratios Go.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Financial Ratios Go.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Financial Ratios Go/Pods-Financial Ratios Go.debug.xcconfig"; sourceTree = "<group>"; };
+		E3CA71D0EEC506F6A7D9E335 /* Pods_Financial_Ratios_Go.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Financial_Ratios_Go.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9995125423376CD600E634E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B64D0C3808730FACAE2F0D /* Pods_Financial_Ratios_Go.framework in Frameworks */,
+				994C339A25D57B58007341DD /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		993ECA1923521AF6009E1D4C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				993ECA1A23521B04009E1D4C /* Contants.swift */,
+				994C339B25D57C0F007341DD /* Ads.swift */,
+				99CE43B6235B4C3D007C3D4E /* NetworkManager.swift */,
+				996E584C2364B2FC007D9B2E /* FileManager.swift */,
+				9961E84925BD959D00857150 /* InterstitialAdsRequestHelper.swift */,
+				991A460A233D19050018CB9C /* CoreDataManager.swift */,
+				991A4614233DFD350018CB9C /* PopupWindow.swift */,
+				99884E87239530160031D654 /* StoreReviewHelper.swift */,
+				993ECA1E23521BCB009E1D4C /* Others.swift */,
+				996CC8EC23608863000F69ED /* Presentation */,
+				994C339325D5578A007341DD /* Extensions */,
+				994C339425D5578E007341DD /* Class */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		994C339325D5578A007341DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				41D1CF6027848400009CABBE /* String+Extension.swift */,
+				993ECA1C23521B75009E1D4C /* Extensions.swift */,
+				99F53D112349E06A00C33DDE /* UIColor+Extension.swift */,
+				9961E84625BD8E4200857150 /* UIFont+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		994C339425D5578E007341DD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				994C339725D5580E007341DD /* IAPHelper.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		995DB1B923A4D69A009F9A30 /* CompanyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				995DB1BC23A4DDBC009F9A30 /* CompanyProfileController.swift */,
+			);
+			path = CompanyProfile;
+			sourceTree = "<group>";
+		};
+		996CC8EC23608863000F69ED /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				994FE0C22348AAE40052641A /* PresentationAnimator.swift */,
+				996CC8ED236088A9000F69ED /* PresentationController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9995124E23376CD600E634E8 = {
+			isa = PBXGroup;
+			children = (
+				993ECA182352155A009E1D4C /* Financial Ratios Go.entitlements */,
+				9995125923376CD600E634E8 /* Finance Ratios Go */,
+				9995125823376CD600E634E8 /* Products */,
+				C331906E4C5EB21B087F4409 /* Pods */,
+				DF1FE542E687668E323D9D67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9995125823376CD600E634E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9995125723376CD600E634E8 /* Ratios Go.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9995125923376CD600E634E8 /* Finance Ratios Go */ = {
+			isa = PBXGroup;
+			children = (
+				9995125A23376CD600E634E8 /* AppDelegate.swift */,
+				99FDC31323C8B82100B28480 /* FRGTabBarController.swift */,
+				9995126C23376D1100E634E8 /* Resource */,
+				993ECA1923521AF6009E1D4C /* Utilities */,
+				99FCB422237F9D820051F628 /* FRGBaseModule */,
+				99CE43B1235ABA5E007C3D4E /* Home */,
+				99FCB421237F94E10051F628 /* RatioResult */,
+				9995126323376CD800E634E8 /* LaunchScreen.storyboard */,
+				99645E06236F295200C0A6CA /* Info.plist */,
+				99645E0C236F2A0300C0A6CA /* InfoPlist.strings */,
+				99402EC32346F04600AB1D3A /* Localizable.strings */,
+				99F975F82337BF29006404E5 /* Assets.xcassets */,
+				991A4607233D16E40018CB9C /* CoreDataModels.xcdatamodeld */,
+			);
+			name = "Finance Ratios Go";
+			path = "Financial Ratios Go";
+			sourceTree = "<group>";
+		};
+		9995126C23376D1100E634E8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				996E584E236561A0007D9B2E /* companyList.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9995126E23376D2700E634E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				993ECA22235237D0009E1D4C /* SectionHeader.swift */,
+				9995127B23376D8C00E634E8 /* FiscalPeriod.swift */,
+				9995127A23376D8C00E634E8 /* FinancialStatement.swift */,
+				9995128C23376FB800E634E8 /* FinancialRatio.swift */,
+				991A4616233DFD510018CB9C /* ExplainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99C6C9E525A060B8003E0858 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				994FE0C02348AA460052641A /* MenuController.swift */,
+				99F53D17234A477900C33DDE /* AboutController.swift */,
+				994C33B125D583B6007341DD /* RemoveAdsViewController.swift */,
+				99C6C9E225A060B1003E0858 /* MoreAppsViewController.swift */,
+				9961E83025BD515900857150 /* FeedbackViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99C6C9E625A060BD003E0858 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99F53D132349E17A00C33DDE /* MenuCell.swift */,
+				994C33B425D583BE007341DD /* RemoveAdsCell.swift */,
+				998BD63125D7C9860093451F /* RemoveAdsAboutCell.swift */,
+				9961E82A25BD515100857150 /* MoreAppsHeaderCell.swift */,
+				99C6C9DF25A060A5003E0858 /* AppItemCell.swift */,
+				9961E82D25BD515600857150 /* FeedbackItemCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99C6C9E725A060C1003E0858 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99F53D0E2349DF4E00C33DDE /* MenuModel.swift */,
+				99C6C9DC25A0609B003E0858 /* AppItem.swift */,
+				9961E84325BD8DB500857150 /* FeedbackItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99CE43A9235AB99A007C3D4E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				99C6C9E725A060C1003E0858 /* Model */,
+				99C6C9E625A060BD003E0858 /* View */,
+				99C6C9E525A060B8003E0858 /* Controller */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		99CE43B1235ABA5E007C3D4E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9995126E23376D2700E634E8 /* Model */,
+				99FDC31923C9535200B28480 /* View */,
+				99FDC31A23C9536C00B28480 /* Controller */,
+				99CE43A9235AB99A007C3D4E /* Menu */,
+				99FCB41E237F93CF0051F628 /* CreateNew */,
+				99FCB41F237F941E0051F628 /* Company */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		99FCB41E237F93CF0051F628 /* CreateNew */ = {
+			isa = PBXGroup;
+			children = (
+				991A4610233DC2CB0018CB9C /* CreateNewCell.swift */,
+				991A4605233CBAC30018CB9C /* CreateNewController.swift */,
+			);
+			path = CreateNew;
+			sourceTree = "<group>";
+		};
+		99FCB41F237F941E0051F628 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				9995127C23376D8C00E634E8 /* Company.swift */,
+				9995128023376D9400E634E8 /* CompanyCell.swift */,
+				9995127423376D8100E634E8 /* CompanyController.swift */,
+				995DB1B923A4D69A009F9A30 /* CompanyProfile */,
+				99FCB425237F9FB20051F628 /* CreateOrEditCompany */,
+				99FCB42A237FB1D80051F628 /* FiscalPeriod */,
+			);
+			path = Company;
+			sourceTree = "<group>";
+		};
+		99FCB421237F94E10051F628 /* RatioResult */ = {
+			isa = PBXGroup;
+			children = (
+				996F0270233A5710003720D4 /* RatioResultCell.swift */,
+				99FDC32323C9ACB100B28480 /* ResultCompareCell.swift */,
+				9995127023376D8100E634E8 /* RatioResultController.swift */,
+				99FDC32123C9AC8A00B28480 /* ResultCompareController.swift */,
+			);
+			path = RatioResult;
+			sourceTree = "<group>";
+		};
+		99FCB422237F9D820051F628 /* FRGBaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				99FCB423237F9DC30051F628 /* FRGNavigationController.swift */,
+				99FCB426237FA3A30051F628 /* FRGViewController.swift */,
+				99FCB428237FA7340051F628 /* FRGCalculationButton.swift */,
+				993ECA20235223FB009E1D4C /* FRGHeaderView.swift */,
+			);
+			path = FRGBaseModule;
+			sourceTree = "<group>";
+		};
+		99FCB425237F9FB20051F628 /* CreateOrEditCompany */ = {
+			isa = PBXGroup;
+			children = (
+				991A460C233DAC740018CB9C /* CreateOrEditCompany.swift */,
+			);
+			path = CreateOrEditCompany;
+			sourceTree = "<group>";
+		};
+		99FCB42A237FB1D80051F628 /* FiscalPeriod */ = {
+			isa = PBXGroup;
+			children = (
+				9995128323376D9400E634E8 /* FiscalPeriodCell.swift */,
+				9995127323376D8100E634E8 /* FiscalPeriodController.swift */,
+				99FCB42B237FBFEB0051F628 /* CreateOrEditFiscalPeriod */,
+			);
+			path = FiscalPeriod;
+			sourceTree = "<group>";
+		};
+		99FCB42B237FBFEB0051F628 /* CreateOrEditFiscalPeriod */ = {
+			isa = PBXGroup;
+			children = (
+				991A4612233DDE040018CB9C /* CreateOrEditFiscalPeriodCell.swift */,
+				991A460E233DB7380018CB9C /* CreateOrEditFiscalPeriodController.swift */,
+			);
+			path = CreateOrEditFiscalPeriod;
+			sourceTree = "<group>";
+		};
+		99FDC31923C9535200B28480 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9995128123376D9400E634E8 /* CompanySelectedCell.swift */,
+				9995128223376D9400E634E8 /* FinancialStatementCell.swift */,
+				99FDC31D23C9623D00B28480 /* CompanySelectedCompareCell.swift */,
+				99FDC31F23C9650D00B28480 /* FinancialStatementTitleCell.swift */,
+				99FDC31B23C9538600B28480 /* FinancialStatementCompareCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99FDC31A23C9536C00B28480 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9995127223376D8100E634E8 /* SingleController.swift */,
+				99FDC31523C8BF2500B28480 /* CompareController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C331906E4C5EB21B087F4409 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1ACEDD6F4419F89C52762 /* Pods-Financial Ratios Go.debug.xcconfig */,
+				01CF5B27B4220A76AF621117 /* Pods-Financial Ratios Go.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF1FE542E687668E323D9D67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				994C339925D57B58007341DD /* StoreKit.framework */,
+				E3CA71D0EEC506F6A7D9E335 /* Pods_Financial_Ratios_Go.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9995125623376CD600E634E8 /* Financial Ratios Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9995126923376CD800E634E8 /* Build configuration list for PBXNativeTarget "Financial Ratios Go" */;
+			buildPhases = (
+				A477572E524996CD87FE3D15 /* [CP] Check Pods Manifest.lock */,
+				9995125323376CD600E634E8 /* Sources */,
+				9995125423376CD600E634E8 /* Frameworks */,
+				9995125523376CD600E634E8 /* Resources */,
+				074B1E204E6169EE75BB7DB3 /* [CP] Embed Pods Frameworks */,
+				9991B5A623AD034F006B3711 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Financial Ratios Go";
+			productName = "Finance Ratio Calculator";
+			productReference = 9995125723376CD600E634E8 /* Ratios Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9995124F23376CD600E634E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "Banghua Zhao";
+				TargetAttributes = {
+					9995125623376CD600E634E8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 9995125223376CD600E634E8 /* Build configuration list for PBXProject "Financial Ratios Go" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				ja,
+				"zh-Hant",
+				"zh-HK",
+			);
+			mainGroup = 9995124E23376CD600E634E8;
+			productRefGroup = 9995125823376CD600E634E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9995125623376CD600E634E8 /* Financial Ratios Go */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9995125523376CD600E634E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99402EC12346F04600AB1D3A /* Localizable.strings in Resources */,
+				9995126523376CD800E634E8 /* LaunchScreen.storyboard in Resources */,
+				996E584F236561A0007D9B2E /* companyList.json in Resources */,
+				99F975F92337BF29006404E5 /* Assets.xcassets in Resources */,
+				99645E0A236F2A0300C0A6CA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		074B1E204E6169EE75BB7DB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Financial Ratios Go/Pods-Financial Ratios Go-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Financial Ratios Go/Pods-Financial Ratios Go-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Financial Ratios Go/Pods-Financial Ratios Go-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9991B5A623AD034F006B3711 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"7929d6494b\"\n# #\nBUGLY_APP_KEY=\"b2051f25-3a1c-4ef8-982f-3a7933b90f00\"\n# #\nBUNDLE_IDENTIFIER=\"com.banghua.Banghua-Zhao.Financial-Ratio-Calculator\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\n# UPLOAD_DEBUG_SYMBOLS=0\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\n# UPLOAD_SIMULATOR_SYMBOLS=0\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\n    BUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\n    echo \"--------------------------------\"\n    echo \"${1}\"\n    echo \"--------------------------------\"\n    exit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\n    P_APP_ID=\"$1\"\n    P_APP_KEY=\"$2\"\n    P_APP_BUNDLE_ID=\"$3\"\n    P_APP_VERSION=\"$4\"\n    P_BSYMBOL_ZIP_FILE=\"$5\"\n\n    #\n    P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\n    P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\n    P_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n\n    DSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\n    echo \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n\n    echo \"-----------------------------\"\n    STATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\n    echo \"-----------------------------\"\n\n    UPLOAD_RESULT=\"FAILTURE\"\n    echo \"Bugly server response: ${STATUS}\"\n    if [ ! \"${STATUS}\" ]; then\n        echo \"Error: Failed to upload the zip archive file.\"\n    elif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\n        echo \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\n        UPLOAD_RESULT=\"SUCCESS\"\n    else\n        echo \"Error: Failed to upload the zip archive file to Bugly.\"\n    fi\n\n    #Remove temp dSYM archive\n    #echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n    #/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n\n    if [ \"$?\" -ne 0 ]; then\n        exitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\n    fi\n\n    echo \"--------------------------------\"\n    echo \"${UPLOAD_RESULT} - dSYM upload complete.\"\n\n    if [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\n        echo \"--------------------------------\"\n        echo \"Failed to upload the dSYM\"\n        echo \"Please check the script and try it again.\"\n    fi\n}\n\n# .dSYM解析为bSYMBOL文件\nfunction dSYMParse() {\n    DSYM_FILE=\"$1\"\n    DSYM_SYMBOL_FILE=\"$2\"\n\n    echo \"--------------------------------\"\n    echo \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n    (/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\n    echo \"--------------------------------\"\n\n}\n\n# 执行\nfunction run() {\n\n    CONFIG_BUGLY_APP_ID=\"$1\"\n    CONFIG_BUGLY_APP_KEY=\"$2\"\n\n    CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\n    CONFIG_BUGLY_APP_VERSION=\"$4\"\n    CONFIG_DSYM_SOURCE_DIR=\"$5\"\n    CONFIG_DSYM_DEST_DIR=\"$6\"\n    CONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n\n    # 检查必须参数是否设置\n    if [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\n        exitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\n    fi\n\n    if [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\n        exitWithMessage \"Error: Bugly App ID not defined.\" 0\n    fi\n\n    if [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\n        exitWithMessage \"Error: Bugly App Key not defined.\" 0\n    fi\n\n    if [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\n        exitWithMessage \"Error: Bundle Identifier not defined.\" 0\n    fi\n\n    if [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\n        exitWithMessage \"Error: App Version not defined.\" 0\n    fi\n\n    if [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\n        exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\n    fi\n\n    if [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n        exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\n    fi\n\n    if [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n        mkdir ${CONFIG_DSYM_DEST_DIR}\n    fi\n\n    DSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\n    IFS=$'\\n'\n\n    echo \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\n    RET=\"F\"\n    \n    #\n    for dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\n        RET=\"T\"\n        echo \"Found dSYM file: $dsymFile\"\n\n        DSYM_FILE_NAME=${dsymFile##*/}\n        DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\n        DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\n        DSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n\n        if [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\n            if [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\n                rm -f $DSYM_SYMBOL_ZIP_FILE\n            fi\n            # 如果只上传dSYM，直接压缩dSYM目录\n            zip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\n        else\n            # 使用符号表工具来生成Symbol文件\n            dSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\n        fi\n        \n        # 上传\n        dSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\n    done\n\n    if [ $RET = \"F\" ]; then\n        exitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\n    fi\n}\n\n# 在Xcode工程中执行\nfunction runInXcode(){\n    echo \"Uploading dSYM to Bugly in Xcode ...\"\n\n    echo \"Info.Plist : ${INFOPLIST_FILE}\"\n\n    BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\n    BUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n\n    # 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\n    if [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\n        BUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\n    else\n        BUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\n    fi\n\n    echo \"--------------------------------\"\n    echo \"Prepare application information.\"\n    echo \"--------------------------------\"\n\n    echo \"Product Name: ${PRODUCT_NAME}\"\n    echo \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\n    echo \"Version: ${BUNDLE_SHORT_VERSION}\"\n    echo \"Build: ${BUNDLE_VERSION}\"\n\n    echo \"Bugly App ID: ${BUGLY_APP_ID}\"\n    echo \"Bugly App key: ${BUGLY_APP_KEY}\"\n    echo \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n\n    echo \"--------------------------------\"\n    echo \"Check the arguments ...\"\n\n    ##检查模拟器编译是否允许上传符号\n    if [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\n    if [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\n        exitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\n    fi\n    fi\n\n    ##检查是否是Release模式编译\n    if [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\n    if [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\n        exitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\n    fi\n    fi\n\n    ##检查是否Archive操作\n    if [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\n    if [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\n        echo \"Archive the package\"\n    else\n        exitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\n    fi\n    fi\n\n    #\n    run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n}\n\n# 根据Xcode的环境变量判断是否处于Xcode环境\nINFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n\nBuildInXcode=\"F\"\nif [ -f \"${INFO_PLIST_FILE}\" ]; then\n    BuildInXcode=\"T\"\nfi\n\nif [ $BuildInXcode = \"T\" ]; then\n    runInXcode\nelse\n    echo \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n    # 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\n    BUGLY_APP_ID=\"$1\"\n    BUGLY_APP_KEY=\"$2\"\n    BUNDLE_IDENTIFIER=\"$3\"\n    BUGLY_APP_VERSION=\"$4\"\n    DWARF_DSYM_FOLDER_PATH=\"$5\"\n    SYMBOL_OUTPUT_PATH=\"$6\"\n    UPLOAD_DSYM_ONLY=$7\n    run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\nfi\n";
+		};
+		A477572E524996CD87FE3D15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Financial Ratios Go-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9995125323376CD600E634E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993ECA1B23521B04009E1D4C /* Contants.swift in Sources */,
+				99C6C9D925A0522E003E0858 /* MenuController.swift in Sources */,
+				9995127E23376D8C00E634E8 /* FiscalPeriod.swift in Sources */,
+				9995127823376D8200E634E8 /* FiscalPeriodController.swift in Sources */,
+				99FDC31623C8BF2500B28480 /* CompareController.swift in Sources */,
+				996F0271233A5710003720D4 /* RatioResultCell.swift in Sources */,
+				99F53D0F2349DF4E00C33DDE /* MenuModel.swift in Sources */,
+				9995128D23376FB800E634E8 /* FinancialRatio.swift in Sources */,
+				993ECA21235223FB009E1D4C /* FRGHeaderView.swift in Sources */,
+				99F53D142349E17A00C33DDE /* MenuCell.swift in Sources */,
+				9995128423376D9400E634E8 /* CompanyCell.swift in Sources */,
+				99FCB427237FA3A30051F628 /* FRGViewController.swift in Sources */,
+				993ECA23235237D0009E1D4C /* SectionHeader.swift in Sources */,
+				998BD63225D7C9860093451F /* RemoveAdsAboutCell.swift in Sources */,
+				9961E83125BD515A00857150 /* FeedbackViewController.swift in Sources */,
+				9961E84A25BD959D00857150 /* InterstitialAdsRequestHelper.swift in Sources */,
+				41D1CF6127848400009CABBE /* String+Extension.swift in Sources */,
+				99FDC32423C9ACB100B28480 /* ResultCompareCell.swift in Sources */,
+				996CC8EE236088A9000F69ED /* PresentationController.swift in Sources */,
+				991A460B233D19050018CB9C /* CoreDataManager.swift in Sources */,
+				9961E82B25BD515100857150 /* MoreAppsHeaderCell.swift in Sources */,
+				993ECA1F23521BCB009E1D4C /* Others.swift in Sources */,
+				99FDC32223C9AC8A00B28480 /* ResultCompareController.swift in Sources */,
+				99FDC31E23C9623D00B28480 /* CompanySelectedCompareCell.swift in Sources */,
+				994C339C25D57C0F007341DD /* Ads.swift in Sources */,
+				994C33B225D583B6007341DD /* RemoveAdsViewController.swift in Sources */,
+				99FCB429237FA7340051F628 /* FRGCalculationButton.swift in Sources */,
+				99FDC32023C9650D00B28480 /* FinancialStatementTitleCell.swift in Sources */,
+				9995127923376D8200E634E8 /* CompanyController.swift in Sources */,
+				991A4611233DC2CB0018CB9C /* CreateNewCell.swift in Sources */,
+				991A4606233CBAC30018CB9C /* CreateNewController.swift in Sources */,
+				994C339E25D57C52007341DD /* IAPHelper.swift in Sources */,
+				99FDC31423C8B82100B28480 /* FRGTabBarController.swift in Sources */,
+				994FE0C32348AAE40052641A /* PresentationAnimator.swift in Sources */,
+				99CE43B7235B4C3D007C3D4E /* NetworkManager.swift in Sources */,
+				996E584D2364B2FC007D9B2E /* FileManager.swift in Sources */,
+				9995128623376D9400E634E8 /* FinancialStatementCell.swift in Sources */,
+				9995128523376D9400E634E8 /* CompanySelectedCell.swift in Sources */,
+				991A460F233DB7380018CB9C /* CreateOrEditFiscalPeriodController.swift in Sources */,
+				9995127523376D8200E634E8 /* RatioResultController.swift in Sources */,
+				994C33B525D583BE007341DD /* RemoveAdsCell.swift in Sources */,
+				99C6C9E025A060A5003E0858 /* AppItemCell.swift in Sources */,
+				99F53D18234A477900C33DDE /* AboutController.swift in Sources */,
+				991A4615233DFD350018CB9C /* PopupWindow.swift in Sources */,
+				995DB1BD23A4DDBC009F9A30 /* CompanyProfileController.swift in Sources */,
+				9961E82E25BD515600857150 /* FeedbackItemCell.swift in Sources */,
+				9961E84725BD8E4200857150 /* UIFont+Extension.swift in Sources */,
+				991A4617233DFD520018CB9C /* ExplainModel.swift in Sources */,
+				9995127F23376D8C00E634E8 /* Company.swift in Sources */,
+				991A460D233DAC740018CB9C /* CreateOrEditCompany.swift in Sources */,
+				9995127723376D8200E634E8 /* SingleController.swift in Sources */,
+				9995125B23376CD600E634E8 /* AppDelegate.swift in Sources */,
+				991A4609233D16E40018CB9C /* CoreDataModels.xcdatamodeld in Sources */,
+				993ECA1D23521B75009E1D4C /* Extensions.swift in Sources */,
+				99FCB424237F9DC30051F628 /* FRGNavigationController.swift in Sources */,
+				99FDC31C23C9538600B28480 /* FinancialStatementCompareCell.swift in Sources */,
+				99884E88239530160031D654 /* StoreReviewHelper.swift in Sources */,
+				9961E84425BD8DB500857150 /* FeedbackItem.swift in Sources */,
+				99F53D122349E06A00C33DDE /* UIColor+Extension.swift in Sources */,
+				9995127D23376D8C00E634E8 /* FinancialStatement.swift in Sources */,
+				99C6C9DD25A0609B003E0858 /* AppItem.swift in Sources */,
+				99C6C9EF25A06620003E0858 /* MoreAppsViewController.swift in Sources */,
+				991A4613233DDE040018CB9C /* CreateOrEditFiscalPeriodCell.swift in Sources */,
+				9995128723376D9400E634E8 /* FiscalPeriodCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99402EC32346F04600AB1D3A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99402EC22346F04600AB1D3A /* en */,
+				99402EC42346F04900AB1D3A /* zh-Hans */,
+				995E806823BF999B00C55E8C /* ja */,
+				99C6C9F125A06893003E0858 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		99645E0C236F2A0300C0A6CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99645E0B236F2A0300C0A6CA /* en */,
+				99645E0D236F2A0400C0A6CA /* zh-Hans */,
+				995E806923BF999B00C55E8C /* ja */,
+				99841E2723DC97730037DD92 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9995126323376CD800E634E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9995126423376CD800E634E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9995126723376CD800E634E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9995126823376CD800E634E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9995126A23376CD800E634E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB1ACEDD6F4419F89C52762 /* Pods-Financial Ratios Go.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "Financial Ratios Go/Financial Ratios Go.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.2.50;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = F694X76A5X;
+				INFOPLIST_FILE = "Financial Ratios Go/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banghua.Banghua-Zhao.Financial-Ratio-Calculator";
+				PRODUCT_NAME = "Ratios Go";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9995126B23376CD800E634E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01CF5B27B4220A76AF621117 /* Pods-Financial Ratios Go.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "Financial Ratios Go/Financial Ratios Go.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.2.50;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = F694X76A5X;
+				INFOPLIST_FILE = "Financial Ratios Go/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banghua.Banghua-Zhao.Financial-Ratio-Calculator";
+				PRODUCT_NAME = "Ratios Go";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9995125223376CD600E634E8 /* Build configuration list for PBXProject "Financial Ratios Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9995126723376CD800E634E8 /* Debug */,
+				9995126823376CD800E634E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9995126923376CD800E634E8 /* Build configuration list for PBXNativeTarget "Financial Ratios Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9995126A23376CD800E634E8 /* Debug */,
+				9995126B23376CD800E634E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		991A4607233D16E40018CB9C /* CoreDataModels.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				991A4608233D16E40018CB9C /* CoreDataModels.xcdatamodel */,
+			);
+			currentVersion = 991A4608233D16E40018CB9C /* CoreDataModels.xcdatamodel */;
+			path = CoreDataModels.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9995124F23376CD600E634E8 /* Project object */;
+}

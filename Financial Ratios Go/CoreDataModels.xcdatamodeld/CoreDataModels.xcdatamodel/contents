@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MyCompany" representedClassName="MyCompany" syncable="YES" codeGenerationType="class">
+        <attribute name="logoImage" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="symbol" optional="YES" attributeType="String"/>
+        <relationship name="fiscalPeriods" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MyFiscalPeriod" inverseName="company" inverseEntity="MyFiscalPeriod"/>
+    </entity>
+    <entity name="MyFinancialStatement" representedClassName="MyFinancialStatement" syncable="YES" codeGenerationType="class">
+        <attribute name="balanceSheetStatement" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData"/>
+        <attribute name="cashFlowStatement" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData"/>
+        <attribute name="incomeStatement" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData"/>
+        <relationship name="fiscalPeriod" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MyFiscalPeriod" inverseName="financialStatement" inverseEntity="MyFiscalPeriod"/>
+    </entity>
+    <entity name="MyFiscalPeriod" representedClassName="MyFiscalPeriod" syncable="YES" codeGenerationType="class">
+        <attribute name="period" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <relationship name="company" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MyCompany" inverseName="fiscalPeriods" inverseEntity="MyCompany"/>
+        <relationship name="financialStatement" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MyFinancialStatement" inverseName="fiscalPeriod" inverseEntity="MyFinancialStatement"/>
+    </entity>
+    <elements>
+        <element name="MyCompany" positionX="-77.67578125" positionY="-175.921875" width="128" height="103"/>
+        <element name="MyFinancialStatement" positionX="292.171875" positionY="-181.0703125" width="128" height="89"/>
+        <element name="MyFiscalPeriod" positionX="109.30078125" positionY="-171.6796875" width="128" height="103"/>
+    </elements>
+</model>

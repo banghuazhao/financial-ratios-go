@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Financial Ratios Go
+
+  Created by Banghua Zhao on 11/3/19.
+  Copyright © 2019 Banghua Zhao. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Ratios Go";
+"NSUserTrackingUsageDescription" = "この識別子は、パーソナライズされた広告を配信するために使用されます。";

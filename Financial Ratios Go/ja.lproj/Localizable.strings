@@ -1,0 +1,363 @@
+/*
+ Localizable.strings
+ Financial Ratios Go
+
+ Created by Banghua Zhao on 10/4/19.
+ Copyright © 2019 Banghua Zhao. All rights reserved.
+ */
+
+/* To create string file: find . -name \*.swift | xargs genstrings -o .*/
+/* or find ./ -name "*.swift" -print0 | xargs -0 xcrun extractLocStrings -o . */
+
+/* Ads */
+"The purchase is successful" = "購入は成功しました";
+"The purchase is restored" = "購入が復元されました";
+"The purchase is failed" = "購入に失敗しました";
+"No product to be restored" = "復元する製品はありません";
+"Restore purchase" = "購入を元に戻す";
+"Remove Ads forever has been purchased" = "永久に広告を削除が購入されました";
+"Restoring purchase" = "購入の復元";
+"Request failed" = "リクエストに失敗しました";
+"Requesting the product" = "商品のリクエスト";
+"Remove Ads" = "広告を削除";
+"Purchasing" = "購入";
+"No Data" = "データなし";
+"Purchase Notes" = "購入メモ";
+"After purchase, all of the Ads will be removed immediately." = "購入後、すべての広告はすぐに削除されます。";
+"The purchase is valid across different devices (iPhone and iPad) for the same Apple ID." = "購入は、同じApple IDのさまざまなデバイス（iPhoneとiPad）で有効です。";
+"If users change a device or reinstall this App, restore purchase will store your previous purchase." = "ユーザーがデバイスを変更したり、このアプリを再インストールしたりすると、購入を復元すると以前の購入が保存されます。";
+
+"We will constantly optimize and maintain our App and make sure users have the best experience" = "私たちは常にアプリを最適化して維持し、ユーザーが最高のエクスペリエンスを楽しめるようにします。";
+
+/* More Apps */
+"More Apps" = "More アプリ";
+"Check out more Apps made by us" = "他のアプリをチェックしてください";
+
+"All the Apps are available in both Mac and iOS App Store" = "すべてのアプリはMacとiOSの両方のAppStoreで入手できます";
+
+"Finance Go" = "米国株の達人";
+"Financial Reports & Investing" = "ニュース、投資財務諸表情報&米国株投資";
+
+"Countdown Days" = "日数のカウントダウン";
+"Events, Anniversary & Big Days" = "イベント、記念日、祭り、活動のスケジュール管理 アプリ";
+
+"Money Tracker" = "マネートラッカー";
+"Budget, Expense & Bill Planner" = "経費,予算プランナーとお金管理";
+
+"Ratios Go" = "Ratios Go";
+"Financial Ratios Go" = "Financial Ratios Go";
+"Finance, Ratios, Investing" = "ファイナンス, 財務分析, 株式投資";
+
+"BMI Diary" = "BMI 日記";
+"Fitness, Weight Loss &Health" = "BMI計算機 、肥満度指数& トラッカー";
+
+"Image Guru" = "Image Guru";
+"Photo Editor,Filter" = "フィルターアプリ,画像加工アプリ";
+
+"Instant Face" = "Instant Face";
+"Avatar Maker" = "Avatar Maker";
+
+"We Play Piano" = "We Play Piano";
+"Piano Keyboard" = "ピアノアプリ";
+
+"Mint Translate" = "Mint Translate";
+"Text Translator" = "テキスト翻訳,自動翻訳";
+
+"Yes Habit" = "Yes Habit";
+"Habit Tracker" = "Habit Tracker";
+
+"Relaxing_Up" = "Relaxing Up";
+"Meditation&Healing" = "瞑想,雨の音,リラックス音楽";
+/* Feedback */
+"Feedback" = "フィードバック";
+
+"WeChat Official Account" = "WeChatパブリックアカウント";
+"Send a message to Apps Bay official account" = "WeChat ページにメッセージを送信する";
+"Send a message to WeChat official account" = "WeChat ページにメッセージを送信する";
+"Please search \"Apps Bay\" in WeChat official account. Then leave a message after following the account. Thanks!" = "WeChat公式アカウントで「AppsBay」を検索してください。 アカウントをフォローした後、メッセージを残してください。 ありがとう！";
+
+"Facebook Page" = "Facebookページ";
+"Send a message to Apps Bay Facebook page" = "Facebookページにメッセージを送信する";
+
+"Email" = "Email";
+"Write an email to appsbay@qq.com" = "appsbay@qq.comにメールを書く";
+"Write an email to appsbayarea@gmail.com" = "appsbayarea@gmail.comにメールを書く";
+"Thanks for Your Feedback" = "ご意見ありがとうございます";
+
+"Money Tracker" = "极简记账";
+"Budget, Expense & Bill Planner" = "予算管理と節約計画の専門家";
+"No Data" = "データなし";
+
+"Financial Ratios Go (iOS App)" = "Financial Ratios Go (iOS App)";
+"Ratios Go (macOS App)" = "Ratios Go (macOS App)";
+"Finance, Ratios, Investing" = "ファイナンス, 財務分析, 株式投資";
+"Finance Go" = "米国株の達人";
+"Financial Reports & Investing" = "ニュース、投資財務諸表情報&米国株投資";
+"Countdown Days" = "日数のカウントダウン";
+"Events, Anniversary & Big Days" = "イベント、記念日、祭り、活動のスケジュール管理 アプリ";
+"More Apps" = "More Apps";
+
+"Increase or Decrease" = "増減";
+"Amount" = "金額";
+"Percent" = "パーセント";
+
+/* misc */
+"Financial Ratios Go" = "Financial Ratios Go";
+"About" = "About";
+"Language" = "言語設定";
+"Feedback" = "ヘルプ・お問い合わせ";
+"Rate this App" = "アプリを評価する";
+"Calculate" = "計算する";
+"Online" = "オンライン";
+"Local" = "Local";
+"Search company names or codes" = "銘柄名/ティッカーを検索する";
+"Annually" = "Annually";
+"Quarterly" = "Quarterly";
+"Edit" = "エディット";
+"Delete" = "削除する";
+"Company Name" = "銘柄名";
+"CompanySymbol" = "ティッカー";
+"Enter name" = "銘柄名入力";
+"Enter symbol" = "ティッカー入力";
+"Save" = "保存する";
+"Cancel" = "入力をキャンセル";
+"Back" = "戻る";
+"About this App" = "このアプリについて";
+"Enter Value" = "入力";
+"Version" = "アプリバージョン";
+"Developers" = "アプリ開発者";
+"Lulin Yang" = "Lulin Yang";
+"Product Design" = "プロダクトマネージャー";
+"Banghua Zhao" = "Banghua Zhao";
+"Programming" = "プログラミング";
+"Privacy" = "Privacy";
+"Introduction" = "Introduction";
+"Yes" = "Yes";
+"Ok" = "Ok";
+"Wrong input values" = "間違った入力値";
+"Clear Cache" = "キャッシュを削除する";
+"Refresh finished" = "リフレッシュ完了しました";
+"Edit Local Company" = "エディット";
+"Done" = "完了しました";
+"Website" = "ウェブサイト";
+"Industry" = "業界";
+"Exchange" = "市場";
+"Company Profile" = "事業内容";
+"Change language" = "言語を変えてください";
+"Select a language" = "言語を選択してください";
+
+"Downloading..." = "ダウンロード中です...";
+"Pull to refresh" = "引っ張って更新する";
+"Redownloading data..." = "データを再ダウンロードする...";
+"Download Successfully!" = "ダウンロード完了しました!";
+"Network Error! Pull to reload" = "ネットワークエラー! 引っ張っ更新する";
+"Network Timeout! Pull to reload" = "タイムアウト! 引っ張っ更新する";
+"Unknown Error! Pull to reload" = "不明なエラーが発生しました! 引っ張っ更新する";
+"Wrong Fiscal Period! Try others" = "入力した値は正しくありません!";
+
+"No companies available..." = "No companies available...";
+"No annually fiscal peroid available..." = "No annually fiscal peroid available...";
+"No quarterly fiscal peroid available..." = "No quarterly fiscal peroid available...";
+
+"Feedback for Financial Ratios Go" = "Feedback for Financial Ratios Go";
+"Dear Financial Ratios Go Team:\n  Your feedbacks..." = "Dear Financial Ratios Go Team:\n  Your feedbacks...";
+
+"Could not send email" = "Could not send email";
+"Error while sending email" = "Error while sending email";
+"Feedback is sent" = "Feedback is sent";
+
+"Your device could not send email. Please send an email to iday4633@gmail.com from another device to let us know your feedback. Thanks!"
+    =
+        "Your device could not send email. Please send an email to iday4633@gmail.com from another device to let us know your feedback. Thanks!";
+
+"Could not send email due to error. Please send an email to iday4633@gmail.com by another method to let us know your feedback. Thanks!"
+    =
+        "Could not send email due to error. Please send an email to iday4633@gmail.com by another method to let us know your feedback. Thanks!";
+
+"Your feedback is sent to us. We will reply to you as soon as possible. Thanks for your feedback!"
+    =
+        "Your feedback is sent to us. We will reply to you as soon as possible. Thanks for your feedback!";
+
+"This App is a financial ratio calculator\n\nIt can fetch financial statements of 25000+ major companies from the American stock market by using API from https://financialmodelingprep.com/developer/docs/\n\nIt can also store user-defined financial statements and add fiscal period"
+    =
+        "Financial Ratios Go アプリでは、米国株の財務指標と財務諸表をわかりやすい分析結果を表示します．\n\nAPIを使用して、25000社以上の米国企業の財務諸表を取得できます。API from https://financialmodelingprep.com/developer/docs/\n\nまた、ユーザー定義で財務諸表を保存し、会計期間を追加することもできます.";
+
+"Do you want to clear cache (statment cache, company logo cache and piscal period cache)"
+    =
+        "Do you want to clear cache (statment cache, company logo cache and piscal period cache)";
+
+"Create Financial Statement" = "Create Financial Statement";
+
+"New financial statement or current financial statement?"
+    =
+        "New financial statement or current financial statement?";
+
+"New" = "New";
+"Current" = "Current";
+
+/* page title */
+"Financial Statements" = "Financial Statements";
+"Companies" = "Companies";
+"Create Company" = "Create Company";
+"Edit Company" = "Edit Company";
+"Fiscal Period" = "Fiscal Period";
+"Create Fiscal Period" = "Create Fiscal Period";
+"Edit Fiscal Period" = "Edit Fiscal Period";
+"Financial Ratios" = "Financial Ratios";
+
+/* section title */
+"Company" = "Company";
+"Company and Fiscal Period" = "Company and Fiscal Period";
+
+"Income Statement" = "Income Statement";
+"Balance Sheet Statement" = "Balance Sheet Statement";
+"Cash Flow Statement" = "Cash Flow Statement";
+
+"Liquidity Measurement Ratios" = "Liquidity Measurement Ratios";
+"Debt Ratios" = "Debt Ratios";
+"Profit Ability Indicator Ratios" = "Profit Ability Indicator Ratios";
+"Cash Flow Indicator Ratios" = "Cash Flow Indicator Ratios";
+"Other Ratios" = "Other Ratios";
+
+/* row title */
+"Revenue" = "Revenue";
+"Net Income" = "Net Income";
+"Operating Income" = "Operating Income";
+"EBIT" = "EBIT";
+"Interest Expense" = "Interest Expense";
+"Income Tax Expense" = "Income Tax Expense";
+"Cash and Cash Equivalents" = "Cash and Cash Equivalents";
+"Short-term Debt" = "Short-term Debt";
+"Long-term Debt" = "Long-term Debt";
+"Total Assets" = "Total Assets";
+"Total Current Assets" = "Total Current Assets";
+"Total Current Liabilities" = "Total Current Liabilities";
+"Total Shareholders Equity" = "Total Shareholders Equity";
+"Operating Cash Flow" = "Operating Cash Flow";
+"Dividend Payments" = "Dividend Payments";
+
+"Current Ratio" = "Current Ratio";
+"Cash Ratio" = "Cash Ratio";
+"Debt Ratio" = "Debt Ratio";
+"Interest Coverage" = "Interest Coverage";
+"Operating Profit Margin" = "Operating Profit Margin";
+"Net Profit Margin" = "Net Profit Margin";
+"Return on Equity" = "Return on Equity";
+"Dividend Payout Ratio" = "Dividend Payout Ratio";
+"Return on Debt" = "Return on Debt";
+"Cash Flow to Debt Ratio" = "Cash Flow to Debt Ratio";
+"CFROI" = "CFROI";
+"Return on Invested Capital" = "Return on Invested Capital";
+
+/* explain */
+
+/* statement */
+
+"In accounting, revenue is the income that a business has from its normal business activities, usually from the sale of goods and services to customers.\n\nReference: https://en.wikipedia.org/wiki/Revenue" =
+    "In accounting, revenue is the income that a business has from its normal business activities, usually from the sale of goods and services to customers.\n\nReference: https://en.wikipedia.org/wiki/Revenue";
+
+"In business and accounting, net income is a measure of the profitability of a venture. It is an entity's income minus cost of goods sold, expenses (e.g., SG&A), depreciation and amortization, interest, and taxes for an accounting period.\n\nReference: https://en.wikipedia.org/wiki/Net_income"
+    =
+        "In business and accounting, net income is a measure of the profitability of a venture. It is an entity's income minus cost of goods sold, expenses (e.g., SG&A), depreciation and amortization, interest, and taxes for an accounting period.\n\nReference: https://en.wikipedia.org/wiki/Net_income";
+
+"Operating income is an accounting figure that measures the amount of profit realized from a business's operations, after deducting operating expenses such as wages, depreciation, and cost of goods sold (COGS).\n\nReference: https://www.investopedia.com/terms/o/operatingincome.asp"
+    =
+        "Operating income is an accounting figure that measures the amount of profit realized from a business's operations, after deducting operating expenses such as wages, depreciation, and cost of goods sold (COGS).\n\nReference: https://www.investopedia.com/terms/o/operatingincome.asp";
+
+"In accounting and finance, earnings before interest and taxes (EBIT) is a measure of a firm's profit that includes all incomes and expenses (operating and non-operating) except interest expenses and income tax expenses.\n\nEBIT = Net income + Interest + Taxes\n\nReference: https://en.wikipedia.org/wiki/Earnings_before_interest_and_taxes"
+    =
+        "In accounting and finance, earnings before interest and taxes (EBIT) is a measure of a firm's profit that includes all incomes and expenses (operating and non-operating) except interest expenses and income tax expenses.\n\nEBIT = Net income + Interest + Taxes\n\nReference: https://en.wikipedia.org/wiki/Earnings_before_interest_and_taxes";
+
+"Interest expense relates to the cost of borrowing money. It is the price that a lender charges a borrower for the use of the lender's money.\n\nReference: https://en.wikipedia.org/wiki/Interest_expense"
+    =
+        "Interest expense relates to the cost of borrowing money. It is the price that a lender charges a borrower for the use of the lender's money.\n\nReference: https://en.wikipedia.org/wiki/Interest_expense";
+
+"Income tax expense is the amount of expense that a business recognizes in an accounting period for the government tax related to its taxable profit.\n\nReference: https://www.accountingtools.com/articles/2017/5/12/income-tax-expense"
+    =
+        "Income tax expense is the amount of expense that a business recognizes in an accounting period for the government tax related to its taxable profit.\n\nReference: https://www.accountingtools.com/articles/2017/5/12/income-tax-expense";
+
+"Cash and cash equivalents refers to the line item on the balance sheet that reports the value of a company's assets that are cash or can be converted into cash immediately.\n\nReference: https://www.investopedia.com/terms/c/cashandcashequivalents.asp"
+    =
+        "Cash and cash equivalents refers to the line item on the balance sheet that reports the value of a company's assets that are cash or can be converted into cash immediately.\n\nReference: https://www.investopedia.com/terms/c/cashandcashequivalents.asp";
+
+"Short term debt, also called current liabilities, is a firm's financial obligations that are expected to be paid off within a year.\n\nReference: https://www.investopedia.com/terms/s/shorttermdebt.asp"
+    =
+        "Short term debt, also called current liabilities, is a firm's financial obligations that are expected to be paid off within a year.\n\nReference: https://www.investopedia.com/terms/s/shorttermdebt.asp";
+
+"Long-term debt is debt that matures in more than one year.\n\nReference: https://www.investopedia.com/terms/l/longtermdebt.asp"
+    =
+        "Long-term debt is debt that matures in more than one year.\n\nReference: https://www.investopedia.com/terms/l/longtermdebt.asp";
+
+"Total assets refers to the total amount of assets owned by a person or entity. Assets are items of economic value, which are expended over time to yield a benefit for the owner.\n\nReference: https://www.accountingtools.com/articles/2017/5/15/total-assets"
+    =
+        "Total assets refers to the total amount of assets owned by a person or entity. Assets are items of economic value, which are expended over time to yield a benefit for the owner.\n\nReference: https://www.accountingtools.com/articles/2017/5/15/total-assets";
+
+"Total current assets is the aggregate amount of all cash, receivables, prepaid expenses, and inventory on an organization's balance sheet. These assets are classified as current assets if there is an expectation that they will be converted into cash within one year.\n\nReference: https://www.accountingtools.com/articles/2017/5/15/total-current-assets"
+    =
+        "Total current assets is the aggregate amount of all cash, receivables, prepaid expenses, and inventory on an organization's balance sheet. These assets are classified as current assets if there is an expectation that they will be converted into cash within one year.\n\nReference: https://www.accountingtools.com/articles/2017/5/15/total-current-assets";
+
+"Also called Current Liabilities and listed on the Balance Sheet, they are a company's short-term financial obligations that are due within one year or within a normal operating cycle.\n\nReference: https://www.investopedia.com/terms/c/currentliabilities.asp"
+    =
+        "Also called Current Liabilities and listed on the Balance Sheet, they are a company's short-term financial obligations that are due within one year or within a normal operating cycle.\n\nReference: https://www.investopedia.com/terms/c/currentliabilities.asp";
+
+"Total Shareholder equity, also referred to as shareholders' equity and stockholders' equity, is a corporation's owners' residual claim after debts have been paid. Equity is equal to a firm's total assets minus its total liabilities.\n\nReference: https://www.investopedia.com/terms/s/shareholdersequity.asp"
+    =
+        "Total Shareholder equity, also referred to as shareholders' equity and stockholders' equity, is a corporation's owners' residual claim after debts have been paid. Equity is equal to a firm's total assets minus its total liabilities.\n\nReference: https://www.investopedia.com/terms/s/shareholdersequity.asp";
+
+"Operating cash flow is a measure of the amount of cash generated by a company's normal business operations.\n\nReference: https://www.investopedia.com/terms/o/operatingcashflow.asp"
+    =
+        "Operating cash flow is a measure of the amount of cash generated by a company's normal business operations.\n\nReference: https://www.investopedia.com/terms/o/operatingcashflow.asp";
+
+"A dividend is a payment made by a corporation to its shareholders, usually as a distribution of profits. When a corporation earns a profit or surplus, the corporation is able to re-invest the profit in the business (called retained earnings) and pay a proportion of the profit as a dividend to shareholders.\n\nReference: https://en.wikipedia.org/wiki/Dividend"
+    =
+        "A dividend is a payment made by a corporation to its shareholders, usually as a distribution of profits. When a corporation earns a profit or surplus, the corporation is able to re-invest the profit in the business (called retained earnings) and pay a proportion of the profit as a dividend to shareholders.\n\nReference: https://en.wikipedia.org/wiki/Dividend";
+
+/* ratios */
+
+"The current ratio is a liquidity ratio that measures a company's ability to pay short-term obligations or those due within one year.\n\nCurrent Ratio = Total Current assets / Total Current liabilities\n\nReference: https://www.investopedia.com/terms/c/currentratio.asp"
+    =
+        "The current ratio is a liquidity ratio that measures a company's ability to pay short-term obligations or those due within one year.\n\nCurrent Ratio = Total Current assets / Total Current liabilities\n\nReference: https://www.investopedia.com/terms/c/currentratio.asp";
+
+"The cash ratio is a measurement of a company's liquidity, specifically the ratio of a company's total cash and cash equivalents to its current liabilities.\n\nCash Ratio = Cash and Cash Equivalents / Total Current liabilities\n\nReference: https://www.investopedia.com/terms/c/cash-ratio.asp"
+    =
+        "The cash ratio is a measurement of a company's liquidity, specifically the ratio of a company's total cash and cash equivalents to its current liabilities.\n\nCash Ratio = Cash and Cash Equivalents / Total Current liabilities\n\nReference: https://www.investopedia.com/terms/c/cash-ratio.asp";
+
+"The debt ratio is a financial ratio that measures the extent of a company’s leverage.\n\nDebt ratio = (Short-term Debt + Long-term Debt) / Total assets\n\nReference: https://www.investopedia.com/terms/d/debtratio.asp"
+    =
+        "The debt ratio is a financial ratio that measures the extent of a company’s leverage.\n\nDebt ratio = (Short-term Debt + Long-term Debt) / Total assets\n\nReference: https://www.investopedia.com/terms/d/debtratio.asp";
+
+"The interest coverage ratio is a debt ratio and profitability ratio used to determine how easily a company can pay interest on its outstanding debt.\n\nInterest Coverage Ratio = EBIT / Interest Expense\n\nReference: https://www.investopedia.com/terms/i/interestcoverageratio.asp"
+    =
+        "The interest coverage ratio is a debt ratio and profitability ratio used to determine how easily a company can pay interest on its outstanding debt.\n\nInterest Coverage Ratio = EBIT / Interest Expense\n\nReference: https://www.investopedia.com/terms/i/interestcoverageratio.asp";
+
+"The operating margin measures how much profit a company makes on a dollar of sales, after paying for variable costs of production, such as wages and raw materials, but before paying interest or tax.\n\nOperating Profit Margin = Operating Income / Revenue\n\nReference: https://www.investopedia.com/terms/o/operatingmargin.asp"
+    =
+        "The operating margin measures how much profit a company makes on a dollar of sales, after paying for variable costs of production, such as wages and raw materials, but before paying interest or tax.\n\nOperating Profit Margin = Operating Income / Revenue\n\nReference: https://www.investopedia.com/terms/o/operatingmargin.asp";
+
+"The net profit margin is equal to how much net income or profit is generated as a percentage of revenue.\n\nNet Profit Margin = Net Income / Revenue\n\nReference: https://www.investopedia.com/terms/n/net_margin.asp"
+    =
+        "The net profit margin is equal to how much net income or profit is generated as a percentage of revenue.\n\nNet Profit Margin = Net Income / Revenue\n\nReference: https://www.investopedia.com/terms/n/net_margin.asp";
+
+"Return on equity (ROE) is a measure of financial performance calculated by dividing net income by shareholders' equity.\n\nReturn on Equity = Net Income / Total Shareholders Equity\n\nReference: https://www.investopedia.com/terms/r/returnonequity.asp"
+    =
+        "Return on equity (ROE) is a measure of financial performance calculated by dividing net income by shareholders' equity.\n\nReturn on Equity = Net Income / Total Shareholders Equity\n\nReference: https://www.investopedia.com/terms/r/returnonequity.asp";
+
+"The dividend payout ratio is the ratio of the total amount of dividends paid out to shareholders relative to the net income of the company.\n\n|Dividend Payout Ratio = Dividend Payments / Net Income|\n\nReference: https://www.investopedia.com/terms/d/dividendpayoutratio.asp"
+    =
+        "The dividend payout ratio is the ratio of the total amount of dividends paid out to shareholders relative to the net income of the company.\n\n|Dividend Payout Ratio = Dividend Payments / Net Income|\n\nReference: https://www.investopedia.com/terms/d/dividendpayoutratio.asp";
+
+"Return on debt (ROD) is a measure of profitability with respect to a firm's leverage.\n\nReturn on Debt = Net Income / Long-term Debt\n\nReference: https://www.investopedia.com/terms/r/return-on-debt.asp"
+    =
+        "Return on debt (ROD) is a measure of profitability with respect to a firm's leverage.\n\nReturn on Debt = Net Income / Long-term Debt\n\nReference: https://www.investopedia.com/terms/r/return-on-debt.asp";
+
+"The cash flow-to-debt ratio is the ratio of a company’s cash flow from operations to its total debt.\n\nCash Flow to Debt Ratio = Operating Cash Flow / (Short-term Debt + Long-term Debt)\n\nReference: https://www.investopedia.com/terms/c/cash-flowtodebt-ratio.asp"
+    =
+        "The cash flow-to-debt ratio is the ratio of a company’s cash flow from operations to its total debt.\n\nCash Flow to Debt Ratio = Operating Cash Flow / (Short-term Debt + Long-term Debt)\n\nReference: https://www.investopedia.com/terms/c/cash-flowtodebt-ratio.asp";
+
+"Cash Flow Return on Investment (CFROI) is defined as the average economic return on all of a company's investment projects in a given year\n\nCFROI = Operating Cash Flow / (Total Assets -Total Current Liabilities)\n\nReference: https://www.investopedia.com/terms/c/cfroi.asp"
+    =
+        "Cash Flow Return on Investment (CFROI) is defined as the average economic return on all of a company's investment projects in a given year\n\nCFROI = Operating Cash Flow / (Total Assets -Total Current Liabilities)\n\nReference: https://www.investopedia.com/terms/c/cfroi.asp";
+
+"Return on invested capital is a calculation used to assess a company's efficiency at allocating the capital under its control to profitable investments.\n\nReturn on Invested Capital = (Operating Income - Income Tax Expense) / (long-term Debt + Total Shareholders Equity - Cash and Cash Equivalents)\n\nReference: https://www.investopedia.com/terms/r/returnoninvestmentcapital.asp"
+    =
+        "Return on invested capital is a calculation used to assess a company's efficiency at allocating the capital under its control to profitable investments.\n\nReturn on Invested Capital = (Operating Income - Income Tax Expense) / (long-term Debt + Total Shareholders Equity - Cash and Cash Equivalents)\n\nReference: https://www.investopedia.com/terms/r/returnoninvestmentcapital.asp";
